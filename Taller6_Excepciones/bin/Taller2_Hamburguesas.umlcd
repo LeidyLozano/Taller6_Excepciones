@@ -1,0 +1,1867 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_s6udMLDTEe2Eq-A42o2mnA">
+  <modelElement href="Taller2_Hamburguesas.uml#_s6Ye8LDTEe2Eq-A42o2mnA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tGwHALDTEe2Eq-A42o2mnA" source="_tGwHErDTEe2Eq-A42o2mnA">
+    <modelElement href="Taller2_Hamburguesas.uml#_tFuzU7DTEe2Eq-A42o2mnA"/>
+    <stereotypes xmi:id="_tGwHAbDTEe2Eq-A42o2mnA" name="Reference">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFuzVbDTEe2Eq-A42o2mnA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_tGwHArDTEe2Eq-A42o2mnA" text=""/>
+    <sourceRole xmi:id="_tGwHA7DTEe2Eq-A42o2mnA" aggregationKind="NONE" name="">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFuzVLDTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tGwHBLDTEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_tGwHBbDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tGwHBrDTEe2Eq-A42o2mnA" aggregationKind="NONE" name="elementosPedido" navigable="true">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFj0M7DTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tGwHB7DTEe2Eq-A42o2mnA" label="-"/>
+      <cardinality xmi:id="_tGwHCLDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tGwHCbDTEe2Eq-A42o2mnA" source="_tGwHErDTEe2Eq-A42o2mnA">
+    <modelElement href="Taller2_Hamburguesas.uml#_tFuzVrDTEe2Eq-A42o2mnA"/>
+    <stereotypes xmi:id="_tGwHCrDTEe2Eq-A42o2mnA" name="Reference">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFuzWLDTEe2Eq-A42o2mnA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_tGwHC7DTEe2Eq-A42o2mnA" text=""/>
+    <sourceRole xmi:id="_tGwHDLDTEe2Eq-A42o2mnA" aggregationKind="NONE" name="">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFuzV7DTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tGwHDbDTEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_tGwHDrDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tGwHD7DTEe2Eq-A42o2mnA" aggregationKind="NONE" name="factura" navigable="true">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFkbQbDTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tGwHELDTEe2Eq-A42o2mnA" label="-"/>
+      <cardinality xmi:id="_tGwHEbDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tGzxYLDTEe2Eq-A42o2mnA" sourceAnchor="38.0,0.0" targetAnchor="355.0,479.0" target="_tG_-oLDTEe2Eq-A42o2mnA" source="_tGzxabDTEe2Eq-A42o2mnA">
+    <modelElement href="Taller2_Hamburguesas.uml#_tFuMQbDTEe2Eq-A42o2mnA"/>
+    <stereotypes xmi:id="_tGzxYbDTEe2Eq-A42o2mnA" name="Reference">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFuMQ7DTEe2Eq-A42o2mnA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_tGzxYrDTEe2Eq-A42o2mnA" text="">
+      <visualProperties xmi:id="_tL9-NrDTEe2Eq-A42o2mnA" position="-44.0,18.5" visible="false"/>
+    </nameVisual>
+    <sourceRole xmi:id="_tGzxY7DTEe2Eq-A42o2mnA" aggregationKind="NONE" name="">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFuMQrDTEe2Eq-A42o2mnA"/>
+      <visualProperties xmi:id="_tL9-NbDTEe2Eq-A42o2mnA" position="2.0,-72.0" visible="false"/>
+      <visibility xmi:id="_tGzxZLDTEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_tGzxZbDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tGzxZrDTEe2Eq-A42o2mnA" aggregationKind="NONE" name="restaurante" navigable="true">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFhX8LDTEe2Eq-A42o2mnA"/>
+      <visualProperties xmi:id="_tL9-N7DTEe2Eq-A42o2mnA" position="-2.0,4.0"/>
+      <visibility xmi:id="_tGzxZ7DTEe2Eq-A42o2mnA" label="-"/>
+      <cardinality xmi:id="_tGzxaLDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tG20sLDTEe2Eq-A42o2mnA" sourceAnchor="143.0,0.0" targetAnchor="152.0,479.0" target="_tG_-oLDTEe2Eq-A42o2mnA" source="_tG3bxbDTEe2Eq-A42o2mnA">
+    <modelElement href="Taller2_Hamburguesas.uml#_tFtlMLDTEe2Eq-A42o2mnA"/>
+    <stereotypes xmi:id="_tG20tLDTEe2Eq-A42o2mnA" name="Reference">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFuMQLDTEe2Eq-A42o2mnA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_tG20sbDTEe2Eq-A42o2mnA" text="">
+      <visualProperties xmi:id="_tL-lQbDTEe2Eq-A42o2mnA" position="-45.0,-87.99999999999994" visible="false"/>
+    </nameVisual>
+    <sourceRole xmi:id="_tG20srDTEe2Eq-A42o2mnA" aggregationKind="NONE" name="">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFtlMbDTEe2Eq-A42o2mnA"/>
+      <visualProperties xmi:id="_tL-lQLDTEe2Eq-A42o2mnA" position="2.0,-68.0" visible="false"/>
+      <visibility xmi:id="_tG3bwbDTEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_tG3bwLDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tG20s7DTEe2Eq-A42o2mnA" aggregationKind="NONE" name="restaurante" navigable="true">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFgw4LDTEe2Eq-A42o2mnA"/>
+      <visualProperties xmi:id="_tL-lQrDTEe2Eq-A42o2mnA" position="-5.0,9.0"/>
+      <stereotypes xmi:id="_h9WM0LDXEe2Eq-A42o2mnA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_h9WM0bDXEe2Eq-A42o2mnA" name="LegacyStyledElement"/>
+      <visibility xmi:id="_tG3bw7DTEe2Eq-A42o2mnA" label="-"/>
+      <cardinality xmi:id="_tG3bwrDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_tG5Q8LDTEe2Eq-A42o2mnA" sourceAnchor="15.0,0.0" targetAnchor="183.0,169.0" dashed="true" superClass="_tHGsULDTEe2Eq-A42o2mnA" subClass="_tG7GILDTEe2Eq-A42o2mnA">
+    <modelElement href="Taller2_Hamburguesas.uml#_tFZcILDTEe2Eq-A42o2mnA"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tG5Q8bDTEe2Eq-A42o2mnA" source="_tG7GILDTEe2Eq-A42o2mnA">
+    <modelElement href="Taller2_Hamburguesas.uml#_tFuzWbDTEe2Eq-A42o2mnA"/>
+    <stereotypes xmi:id="_tG54A7DTEe2Eq-A42o2mnA" name="Reference">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFuzW7DTEe2Eq-A42o2mnA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_tG54ALDTEe2Eq-A42o2mnA" text=""/>
+    <sourceRole xmi:id="_tG54AbDTEe2Eq-A42o2mnA" aggregationKind="NONE" name="">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFuzWrDTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tG6fErDTEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_tG6fEbDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tG54ArDTEe2Eq-A42o2mnA" aggregationKind="NONE" name="agregados" navigable="true">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFlCUrDTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tG6fFLDTEe2Eq-A42o2mnA" label="-"/>
+      <cardinality xmi:id="_tG6fE7DTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tG5Q8rDTEe2Eq-A42o2mnA" source="_tG7GILDTEe2Eq-A42o2mnA">
+    <modelElement href="Taller2_Hamburguesas.uml#_tFuzXLDTEe2Eq-A42o2mnA"/>
+    <stereotypes xmi:id="_tG54B7DTEe2Eq-A42o2mnA" name="Reference">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFvaYLDTEe2Eq-A42o2mnA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_tG54BLDTEe2Eq-A42o2mnA" text=""/>
+    <sourceRole xmi:id="_tG54BbDTEe2Eq-A42o2mnA" aggregationKind="NONE" name="">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFuzXbDTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tG6fGLDTEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_tG6fF7DTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tG54BrDTEe2Eq-A42o2mnA" aggregationKind="NONE" name="eliminados" navigable="true">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFlCVbDTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tG6fGrDTEe2Eq-A42o2mnA" label="-"/>
+      <cardinality xmi:id="_tG6fGbDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_tG6fELDTEe2Eq-A42o2mnA" sourceAnchor="0.0,198.0" targetAnchor="220.0,8.0" dashed="true" superClass="_tHGsULDTEe2Eq-A42o2mnA" subClass="_tGtqwLDTEe2Eq-A42o2mnA">
+    <modelElement href="Taller2_Hamburguesas.uml#_tFaqQLDTEe2Eq-A42o2mnA"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tG87ULDTEe2Eq-A42o2mnA" sourceAnchor="355.0,0.0" targetAnchor="0.0,192.0" target="_tGwHErDTEe2Eq-A42o2mnA" source="_tG_-oLDTEe2Eq-A42o2mnA">
+    <modelElement href="Taller2_Hamburguesas.uml#_tFwBcLDTEe2Eq-A42o2mnA"/>
+    <bendpoints xmi:id="_jx-MILDXEe2Eq-A42o2mnA" sourceY="-253" targetX="-473"/>
+    <stereotypes xmi:id="_tG9iZ7DTEe2Eq-A42o2mnA" name="Reference">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFwBcrDTEe2Eq-A42o2mnA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_tG9iZLDTEe2Eq-A42o2mnA" text="">
+      <visualProperties xmi:id="_tL-lRLDTEe2Eq-A42o2mnA" position="37.5,-3.25" visible="false"/>
+    </nameVisual>
+    <sourceRole xmi:id="_tG9iZbDTEe2Eq-A42o2mnA" aggregationKind="NONE" name="">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFwBcbDTEe2Eq-A42o2mnA"/>
+      <visualProperties xmi:id="_tL-lQ7DTEe2Eq-A42o2mnA" position="1.5,-70.33333333333331" visible="false"/>
+      <visibility xmi:id="_tG-whrDTEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_tG-whbDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tG9iZrDTEe2Eq-A42o2mnA" aggregationKind="NONE" name="pedidoEnCurso" navigable="true">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFm3gbDTEe2Eq-A42o2mnA"/>
+      <visualProperties xmi:id="_tL_MULDTEe2Eq-A42o2mnA" position="-107.0,-44.00000000000006"/>
+      <visibility xmi:id="_tG-wiLDTEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_tG-wh7DTEe2Eq-A42o2mnA" label="0..1" max="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tG9iYLDTEe2Eq-A42o2mnA" source="_tG_-oLDTEe2Eq-A42o2mnA">
+    <modelElement href="Taller2_Hamburguesas.uml#_tFvaYbDTEe2Eq-A42o2mnA"/>
+    <stereotypes xmi:id="_tG-Jc7DTEe2Eq-A42o2mnA" name="Reference">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFvaY7DTEe2Eq-A42o2mnA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_tG-JcLDTEe2Eq-A42o2mnA" text=""/>
+    <sourceRole xmi:id="_tG-JcbDTEe2Eq-A42o2mnA" aggregationKind="NONE" name="">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFvaYrDTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tG-wjrDTEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_tG-wjbDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tG-JcrDTEe2Eq-A42o2mnA" aggregationKind="NONE" name="menubase" navigable="true">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFlpZbDTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tG-wkLDTEe2Eq-A42o2mnA" label="-"/>
+      <cardinality xmi:id="_tG-wj7DTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tG9iYbDTEe2Eq-A42o2mnA" source="_tG_-oLDTEe2Eq-A42o2mnA">
+    <modelElement href="Taller2_Hamburguesas.uml#_tFvaZLDTEe2Eq-A42o2mnA"/>
+    <stereotypes xmi:id="_tG-Jd7DTEe2Eq-A42o2mnA" name="Reference">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFvaZrDTEe2Eq-A42o2mnA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_tG-JdLDTEe2Eq-A42o2mnA" text=""/>
+    <sourceRole xmi:id="_tG-JdbDTEe2Eq-A42o2mnA" aggregationKind="NONE" name="">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFvaZbDTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tG-wlLDTEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_tG-wk7DTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tG-JdrDTEe2Eq-A42o2mnA" aggregationKind="NONE" name="ingredientes" navigable="true">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFmQcrDTEe2Eq-A42o2mnA"/>
+      <stereotypes xmi:id="_7gyHoLDTEe2Eq-A42o2mnA" name="Generics"/>
+      <visibility xmi:id="_tG_XkbDTEe2Eq-A42o2mnA" label="-"/>
+      <cardinality xmi:id="_tG_XkLDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tG9iYrDTEe2Eq-A42o2mnA" source="_tG_-oLDTEe2Eq-A42o2mnA">
+    <modelElement href="Taller2_Hamburguesas.uml#_tFvaZ7DTEe2Eq-A42o2mnA"/>
+    <stereotypes xmi:id="_tG-wgLDTEe2Eq-A42o2mnA" name="Reference">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFvaabDTEe2Eq-A42o2mnA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_tG-JeLDTEe2Eq-A42o2mnA" text=""/>
+    <sourceRole xmi:id="_tG-JebDTEe2Eq-A42o2mnA" aggregationKind="NONE" name="">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFvaaLDTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tG_XlLDTEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_tG_Xk7DTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tG-JerDTEe2Eq-A42o2mnA" aggregationKind="NONE" name="combos" navigable="true">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFmQdLDTEe2Eq-A42o2mnA"/>
+      <stereotypes xmi:id="_72sGMLDTEe2Eq-A42o2mnA" name="Generics"/>
+      <visibility xmi:id="_tG_XlrDTEe2Eq-A42o2mnA" label="-"/>
+      <cardinality xmi:id="_tG_XlbDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tG9iY7DTEe2Eq-A42o2mnA" source="_tG_-oLDTEe2Eq-A42o2mnA">
+    <modelElement href="Taller2_Hamburguesas.uml#_tFvaarDTEe2Eq-A42o2mnA"/>
+    <stereotypes xmi:id="_tG-whLDTEe2Eq-A42o2mnA" name="Reference">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFvabLDTEe2Eq-A42o2mnA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_tG-wgbDTEe2Eq-A42o2mnA" text=""/>
+    <sourceRole xmi:id="_tG-wgrDTEe2Eq-A42o2mnA" aggregationKind="NONE" name="">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFvaa7DTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tG_XmbDTEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_tG_XmLDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tG-wg7DTEe2Eq-A42o2mnA" aggregationKind="NONE" name="bebidas" navigable="true">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFmQdrDTEe2Eq-A42o2mnA"/>
+      <stereotypes xmi:id="_8OrvcLDTEe2Eq-A42o2mnA" name="Generics"/>
+      <visibility xmi:id="_tG_Xm7DTEe2Eq-A42o2mnA" label="-"/>
+      <cardinality xmi:id="_tG_XmrDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tG9iaLDTEe2Eq-A42o2mnA" source="_tG_-oLDTEe2Eq-A42o2mnA">
+    <modelElement href="Taller2_Hamburguesas.uml#_tFwBc7DTEe2Eq-A42o2mnA"/>
+    <stereotypes xmi:id="_tG-wjLDTEe2Eq-A42o2mnA" name="Reference">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFwBdbDTEe2Eq-A42o2mnA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_tG-wibDTEe2Eq-A42o2mnA" text=""/>
+    <sourceRole xmi:id="_tG-wirDTEe2Eq-A42o2mnA" aggregationKind="NONE" name="">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFwBdLDTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tG_XnrDTEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_tG_XnbDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tG-wi7DTEe2Eq-A42o2mnA" aggregationKind="NONE" name="pedidos" navigable="true">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFm3grDTEe2Eq-A42o2mnA"/>
+      <stereotypes xmi:id="_9DdbULDTEe2Eq-A42o2mnA" name="Generics"/>
+      <visibility xmi:id="_tG_XoLDTEe2Eq-A42o2mnA" label="-"/>
+      <cardinality xmi:id="_tG_Xn7DTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_tHEQELDTEe2Eq-A42o2mnA" sourceAnchor="357.0,202.0" targetAnchor="0.0,84.0" dashed="true" superClass="_tHGsULDTEe2Eq-A42o2mnA" subClass="_tHFeMLDTEe2Eq-A42o2mnA">
+    <modelElement href="Taller2_Hamburguesas.uml#_tFW_4LDTEe2Eq-A42o2mnA"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tHEQEbDTEe2Eq-A42o2mnA" source="_tHFeMLDTEe2Eq-A42o2mnA">
+    <modelElement href="Taller2_Hamburguesas.uml#_tFuzULDTEe2Eq-A42o2mnA"/>
+    <stereotypes xmi:id="_tHE3I7DTEe2Eq-A42o2mnA" name="Reference">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFuzUrDTEe2Eq-A42o2mnA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_tHE3ILDTEe2Eq-A42o2mnA" text=""/>
+    <sourceRole xmi:id="_tHE3IbDTEe2Eq-A42o2mnA" aggregationKind="NONE" name="">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFuzUbDTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tHE3JbDTEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_tHE3JLDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tHE3IrDTEe2Eq-A42o2mnA" aggregationKind="NONE" name="itemsCombo" navigable="true">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFhX97DTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tHE3J7DTEe2Eq-A42o2mnA" label="-"/>
+      <cardinality xmi:id="_tHE3JrDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_09kSQLDTEe2Eq-A42o2mnA" sourceAnchor="385.0,0.0" targetAnchor="0.0,222.0" target="_tGwHErDTEe2Eq-A42o2mnA" source="_tG_-oLDTEe2Eq-A42o2mnA">
+    <modelElement href="Taller2_Hamburguesas.uml#_09idELDTEe2Eq-A42o2mnA"/>
+    <visualProperties xmi:id="_09kSQbDTEe2Eq-A42o2mnA"/>
+    <bendpoints xmi:id="_jx-MIbDXEe2Eq-A42o2mnA" sourceY="-223" targetX="-443"/>
+    <nameVisual xmi:id="_09kSQrDTEe2Eq-A42o2mnA" text="">
+      <visualProperties xmi:id="_0_SJgbDTEe2Eq-A42o2mnA" position="-13.0,16.75" visible="false"/>
+    </nameVisual>
+    <sourceRole xmi:id="_09kSQ7DTEe2Eq-A42o2mnA" aggregationKind="NONE" name="restaurante">
+      <modelElement href="Taller2_Hamburguesas.uml#_09idEbDTEe2Eq-A42o2mnA"/>
+      <visualProperties xmi:id="_0_SJgLDTEe2Eq-A42o2mnA" position="-115.0,-46.0" visible="false"/>
+      <visibility xmi:id="_09kSRLDTEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_09kSRbDTEe2Eq-A42o2mnA" label="*" max="-1"/>
+    </sourceRole>
+    <targetRole xmi:id="_09kSRrDTEe2Eq-A42o2mnA" aggregationKind="NONE" name="pedidos" navigable="true">
+      <modelElement href="Taller2_Hamburguesas.uml#_09idFLDTEe2Eq-A42o2mnA"/>
+      <visualProperties xmi:id="_0_SJgrDTEe2Eq-A42o2mnA" position="-65.0,7.0"/>
+      <visibility xmi:id="_09kSR7DTEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_09kSSLDTEe2Eq-A42o2mnA" label="*" max="-1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_T2pfQLDUEe2Eq-A42o2mnA" sourceAnchor="709.0,363.0" targetAnchor="237.0,0.0" target="_tG1mkLDTEe2Eq-A42o2mnA" source="_tG_-oLDTEe2Eq-A42o2mnA">
+    <modelElement href="Taller2_Hamburguesas.uml#_T2oRILDUEe2Eq-A42o2mnA"/>
+    <visualProperties xmi:id="_T2pfQbDUEe2Eq-A42o2mnA"/>
+    <bendpoints xmi:id="_jx-MIrDXEe2Eq-A42o2mnA" sourceX="221" targetX="-2" targetY="-155"/>
+    <nameVisual xmi:id="_T2pfQrDUEe2Eq-A42o2mnA" text="">
+      <visualProperties xmi:id="_T4WIYbDUEe2Eq-A42o2mnA" position="18.84210526315792,1.5" visible="false"/>
+    </nameVisual>
+    <sourceRole xmi:id="_T2pfQ7DUEe2Eq-A42o2mnA" aggregationKind="NONE" name="restaurante">
+      <modelElement href="Taller2_Hamburguesas.uml#_T2oRIbDUEe2Eq-A42o2mnA"/>
+      <visualProperties xmi:id="_T4WIYLDUEe2Eq-A42o2mnA" position="41.66666666666674,1.5" visible="false"/>
+      <visibility xmi:id="_T2pfRLDUEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_T2pfRbDUEe2Eq-A42o2mnA" label="*" max="-1"/>
+    </sourceRole>
+    <targetRole xmi:id="_T2pfRrDUEe2Eq-A42o2mnA" aggregationKind="NONE" name="ingredientes" navigable="true">
+      <modelElement href="Taller2_Hamburguesas.uml#_T2oRJLDUEe2Eq-A42o2mnA"/>
+      <visualProperties xmi:id="_T4WIYrDUEe2Eq-A42o2mnA" position="-3.0,-41.0"/>
+      <visibility xmi:id="_T2pfR7DUEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_T2pfSLDUEe2Eq-A42o2mnA" label="*" max="-1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_7Tg1wLDVEe2Eq-A42o2mnA" sourceAnchor="413.0,192.0" targetAnchor="110.0,0.0" target="_tHGsULDTEe2Eq-A42o2mnA" source="_tGwHErDTEe2Eq-A42o2mnA">
+    <modelElement href="Taller2_Hamburguesas.uml#_7TfnoLDVEe2Eq-A42o2mnA"/>
+    <visualProperties xmi:id="_7Tg1wbDVEe2Eq-A42o2mnA"/>
+    <bendpoints xmi:id="_jx-zMbDXEe2Eq-A42o2mnA" sourceX="143" targetY="-404"/>
+    <nameVisual xmi:id="_7Tg1wrDVEe2Eq-A42o2mnA" text="">
+      <visualProperties xmi:id="_7VRwU7DVEe2Eq-A42o2mnA" position="-12.0,41.0" visible="false"/>
+    </nameVisual>
+    <sourceRole xmi:id="_7Tg1w7DVEe2Eq-A42o2mnA" aggregationKind="NONE" name="itemsPedido">
+      <modelElement href="Taller2_Hamburguesas.uml#_7TfnobDVEe2Eq-A42o2mnA"/>
+      <visualProperties xmi:id="_7VRwUrDVEe2Eq-A42o2mnA" position="67.0,173.0"/>
+      <visibility xmi:id="_7Tg1xLDVEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_7Tg1xbDVEe2Eq-A42o2mnA" label="*" max="-1"/>
+    </sourceRole>
+    <targetRole xmi:id="_7Tg1xrDVEe2Eq-A42o2mnA" aggregationKind="NONE" name="producto" navigable="true">
+      <modelElement href="Taller2_Hamburguesas.uml#_7TfnpLDVEe2Eq-A42o2mnA"/>
+      <visualProperties xmi:id="_7VRwVLDVEe2Eq-A42o2mnA" position="-66.0,-80.88888888888891" visible="false"/>
+      <visibility xmi:id="_7Tg1x7DVEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_7Tg1yLDVEe2Eq-A42o2mnA" label="*" max="-1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_se6jkLDWEe2Eq-A42o2mnA" sourceAnchor="0.0,184.0" targetAnchor="474.0,121.0" target="_tG1mkLDTEe2Eq-A42o2mnA" source="_tG7GILDTEe2Eq-A42o2mnA">
+    <modelElement href="Taller2_Hamburguesas.uml#_se58gLDWEe2Eq-A42o2mnA"/>
+    <visualProperties xmi:id="_se6jkbDWEe2Eq-A42o2mnA"/>
+    <nameVisual xmi:id="_se6jkrDWEe2Eq-A42o2mnA" text="">
+      <visualProperties xmi:id="_sgvvkbDWEe2Eq-A42o2mnA" position="-12.0,2.0" visible="false"/>
+    </nameVisual>
+    <sourceRole xmi:id="_se6jk7DWEe2Eq-A42o2mnA" aggregationKind="NONE" name="productoAjustado">
+      <modelElement href="Taller2_Hamburguesas.uml#_se58gbDWEe2Eq-A42o2mnA"/>
+      <visualProperties xmi:id="_sgvvkLDWEe2Eq-A42o2mnA" position="-180.0,2.000000000000057" visible="false"/>
+      <visibility xmi:id="_se6jlLDWEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_se6jlbDWEe2Eq-A42o2mnA" label="*" max="-1"/>
+    </sourceRole>
+    <targetRole xmi:id="_se6jlrDWEe2Eq-A42o2mnA" aggregationKind="NONE" name="eliminados" navigable="true">
+      <modelElement href="Taller2_Hamburguesas.uml#_se58hLDWEe2Eq-A42o2mnA"/>
+      <visualProperties xmi:id="_sgvvkrDWEe2Eq-A42o2mnA" position="5.0,-40.0"/>
+      <visibility xmi:id="_se6jl7DWEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_se6jmLDWEe2Eq-A42o2mnA" label="*" max="-1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_sw0L4LDWEe2Eq-A42o2mnA" sourceAnchor="0.0,214.0" targetAnchor="474.0,151.0" target="_tG1mkLDTEe2Eq-A42o2mnA" source="_tG7GILDTEe2Eq-A42o2mnA">
+    <modelElement href="Taller2_Hamburguesas.uml#_swy9wLDWEe2Eq-A42o2mnA"/>
+    <visualProperties xmi:id="_sw0L4bDWEe2Eq-A42o2mnA"/>
+    <nameVisual xmi:id="_sw0L4rDWEe2Eq-A42o2mnA" text="">
+      <visualProperties xmi:id="_sy3aVbDWEe2Eq-A42o2mnA" position="-11.45161290322585,-18.999999999999886" visible="false"/>
+    </nameVisual>
+    <sourceRole xmi:id="_sw0L47DWEe2Eq-A42o2mnA" aggregationKind="NONE" name="productoAjustado">
+      <modelElement href="Taller2_Hamburguesas.uml#_swzk0LDWEe2Eq-A42o2mnA"/>
+      <visualProperties xmi:id="_sy3aVLDWEe2Eq-A42o2mnA" position="-179.25,-47.0" visible="false"/>
+      <visibility xmi:id="_sw0L5LDWEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_sw0L5bDWEe2Eq-A42o2mnA" label="*" max="-1"/>
+    </sourceRole>
+    <targetRole xmi:id="_sw0L5rDWEe2Eq-A42o2mnA" aggregationKind="NONE" name="agregados" navigable="true">
+      <modelElement href="Taller2_Hamburguesas.uml#_swzk07DWEe2Eq-A42o2mnA"/>
+      <visualProperties xmi:id="_sy3aVrDWEe2Eq-A42o2mnA" position="-3.0,4.0"/>
+      <visibility xmi:id="_sw0L57DWEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_sw0L6LDWEe2Eq-A42o2mnA" label="*" max="-1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_DKducLDXEe2Eq-A42o2mnA" sourceAnchor="709.0,159.0" targetAnchor="0.0,126.0" target="_tHFeMLDTEe2Eq-A42o2mnA" source="_tG_-oLDTEe2Eq-A42o2mnA">
+    <modelElement href="Taller2_Hamburguesas.uml#_DKdHYLDXEe2Eq-A42o2mnA"/>
+    <visualProperties xmi:id="_DKducbDXEe2Eq-A42o2mnA"/>
+    <nameVisual xmi:id="_DKducrDXEe2Eq-A42o2mnA" text="">
+      <visualProperties xmi:id="_DMUIlrDXEe2Eq-A42o2mnA" position="-9.71428571428578,-19.5" visible="false"/>
+    </nameVisual>
+    <sourceRole xmi:id="_DKduc7DXEe2Eq-A42o2mnA" aggregationKind="NONE" name="restaurante">
+      <modelElement href="Taller2_Hamburguesas.uml#_DKdHYbDXEe2Eq-A42o2mnA"/>
+      <visualProperties xmi:id="_DMUIlbDXEe2Eq-A42o2mnA" position="-1.0,1.5" visible="false"/>
+      <visibility xmi:id="_DKdudLDXEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_DKdudbDXEe2Eq-A42o2mnA" label="*" max="-1"/>
+    </sourceRole>
+    <targetRole xmi:id="_DKdudrDXEe2Eq-A42o2mnA" aggregationKind="NONE" name="combos" navigable="true">
+      <modelElement href="Taller2_Hamburguesas.uml#_DKdHZLDXEe2Eq-A42o2mnA"/>
+      <visualProperties xmi:id="_DMUIl7DXEe2Eq-A42o2mnA" position="-65.33333333333326,-47.5"/>
+      <visibility xmi:id="_DKdud7DXEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_DKdueLDXEe2Eq-A42o2mnA" label="*" max="-1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_RY1RoLDXEe2Eq-A42o2mnA" sourceAnchor="357.0,35.0" targetAnchor="0.0,107.0" target="_tGtqwLDTEe2Eq-A42o2mnA" source="_tHFeMLDTEe2Eq-A42o2mnA">
+    <modelElement href="Taller2_Hamburguesas.uml#_RY0qkLDXEe2Eq-A42o2mnA"/>
+    <visualProperties xmi:id="_RY1RobDXEe2Eq-A42o2mnA"/>
+    <nameVisual xmi:id="_RY1RorDXEe2Eq-A42o2mnA" text="">
+      <visualProperties xmi:id="_RaoocbDXEe2Eq-A42o2mnA" position="-5.5,1.5" visible="false"/>
+    </nameVisual>
+    <sourceRole xmi:id="_RY1Ro7DXEe2Eq-A42o2mnA" aggregationKind="NONE" name="combo">
+      <modelElement href="Taller2_Hamburguesas.uml#_RY0qkbDXEe2Eq-A42o2mnA"/>
+      <visualProperties xmi:id="_RaoocLDXEe2Eq-A42o2mnA" position="36.799999999999955,1.5" visible="false"/>
+      <visibility xmi:id="_RY1RpLDXEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_RY1RpbDXEe2Eq-A42o2mnA" label="*" max="-1"/>
+    </sourceRole>
+    <targetRole xmi:id="_RY1RprDXEe2Eq-A42o2mnA" aggregationKind="NONE" name="itemsCombo" navigable="true">
+      <modelElement href="Taller2_Hamburguesas.uml#_RY0qlLDXEe2Eq-A42o2mnA"/>
+      <visualProperties xmi:id="_RaoocrDXEe2Eq-A42o2mnA" position="-88.33333333333337,-35.5"/>
+      <visibility xmi:id="_RY1Rp7DXEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_RY1RqLDXEe2Eq-A42o2mnA" label="*" max="-1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_VM9qkLDXEe2Eq-A42o2mnA" sourceAnchor="390.0,154.0" targetAnchor="288.0,213.0" target="_tGtqwLDTEe2Eq-A42o2mnA" source="_tG7GILDTEe2Eq-A42o2mnA">
+    <modelElement href="Taller2_Hamburguesas.uml#_VM8ccLDXEe2Eq-A42o2mnA"/>
+    <visualProperties xmi:id="_VM9qkbDXEe2Eq-A42o2mnA"/>
+    <bendpoints xmi:id="_jx-zMLDXEe2Eq-A42o2mnA" sourceX="73" targetY="435"/>
+    <nameVisual xmi:id="_VM9qkrDXEe2Eq-A42o2mnA" text="">
+      <visualProperties xmi:id="_VOyPiLDXEe2Eq-A42o2mnA" position="-13.0,-0.4117647058823479" visible="false"/>
+    </nameVisual>
+    <sourceRole xmi:id="_VM9qk7DXEe2Eq-A42o2mnA" aggregationKind="NONE" name="productoAjustado">
+      <modelElement href="Taller2_Hamburguesas.uml#_VM8ccbDXEe2Eq-A42o2mnA"/>
+      <visualProperties xmi:id="_VOyPh7DXEe2Eq-A42o2mnA" position="2.0,-78.85714285714286" visible="false"/>
+      <visibility xmi:id="_VM9qlLDXEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_VM9qlbDXEe2Eq-A42o2mnA" label="*" max="-1"/>
+    </sourceRole>
+    <targetRole xmi:id="_VM9qlrDXEe2Eq-A42o2mnA" aggregationKind="NONE" name="base" navigable="true">
+      <modelElement href="Taller2_Hamburguesas.uml#_VM9DgrDXEe2Eq-A42o2mnA"/>
+      <visualProperties xmi:id="_VOyPibDXEe2Eq-A42o2mnA" position="6.000000000000014,5.0"/>
+      <visibility xmi:id="_VM9ql7DXEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_VM9qmLDXEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_tHDpALDTEe2Eq-A42o2mnA" name="FileNotFoundException">
+    <modelElement href="Taller2_Hamburguesas.uml#_tFVKtLDTEe2Eq-A42o2mnA"/>
+    <visualProperties xmi:id="_tHDpAbDTEe2Eq-A42o2mnA" position="-762.0,723.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_tHDpArDTEe2Eq-A42o2mnA" name="Reference">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFVKtbDTEe2Eq-A42o2mnA"/>
+    </stereotypes>
+    <visibility xmi:id="_tHDpA7DTEe2Eq-A42o2mnA" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_tG_-oLDTEe2Eq-A42o2mnA" name="Restaurante" associationsIn="_tG20sLDTEe2Eq-A42o2mnA _tGzxYLDTEe2Eq-A42o2mnA" associationsOut="_tG87ULDTEe2Eq-A42o2mnA _tG9iYLDTEe2Eq-A42o2mnA _tG9iYbDTEe2Eq-A42o2mnA _tG9iYrDTEe2Eq-A42o2mnA _tG9iY7DTEe2Eq-A42o2mnA _tG9iaLDTEe2Eq-A42o2mnA _09kSQLDTEe2Eq-A42o2mnA _T2pfQLDUEe2Eq-A42o2mnA _DKducLDXEe2Eq-A42o2mnA">
+    <modelElement href="Taller2_Hamburguesas.uml#_tE2CgLDTEe2Eq-A42o2mnA"/>
+    <visualProperties xmi:id="_tG_-obDTEe2Eq-A42o2mnA" position="-1980.0,-186.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_tG_-orDTEe2Eq-A42o2mnA" label="+"/>
+    <attributes xmi:id="_tG_-o7DTEe2Eq-A42o2mnA" name="menubase">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFlpZbDTEe2Eq-A42o2mnA"/>
+      <stereotypes xmi:id="_tG_-pLDTEe2Eq-A42o2mnA" name="Generics">
+        <modelElement href="Taller2_Hamburguesas.uml#_tFmQcLDTEe2Eq-A42o2mnA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_tG_-pbDTEe2Eq-A42o2mnA" name="LegacyStyledElement">
+        <modelElement href="Taller2_Hamburguesas.uml#_tFmQcbDTEe2Eq-A42o2mnA"/>
+      </stereotypes>
+      <visibility xmi:id="_tG_-prDTEe2Eq-A42o2mnA" label="-"/>
+      <cardinality xmi:id="_tG_-p7DTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <type xmi:id="_tG_-qLDTEe2Eq-A42o2mnA" name="ArrayList">
+        <modelElement href="Taller2_Hamburguesas.uml#_tFVxw7DTEe2Eq-A42o2mnA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tG_-qbDTEe2Eq-A42o2mnA" name="ingredientes">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFmQcrDTEe2Eq-A42o2mnA"/>
+      <stereotypes xmi:id="_tG_-qrDTEe2Eq-A42o2mnA" name="Generics">
+        <modelElement href="Taller2_Hamburguesas.uml#_tFmQc7DTEe2Eq-A42o2mnA"/>
+      </stereotypes>
+      <visibility xmi:id="_tG_-q7DTEe2Eq-A42o2mnA" label="-"/>
+      <cardinality xmi:id="_tG_-rLDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <type xmi:id="_tG_-rbDTEe2Eq-A42o2mnA" name="ArrayList">
+        <modelElement href="Taller2_Hamburguesas.uml#_tFVxw7DTEe2Eq-A42o2mnA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tG_-rrDTEe2Eq-A42o2mnA" name="combos">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFmQdLDTEe2Eq-A42o2mnA"/>
+      <stereotypes xmi:id="_tG_-r7DTEe2Eq-A42o2mnA" name="Generics">
+        <modelElement href="Taller2_Hamburguesas.uml#_tFmQdbDTEe2Eq-A42o2mnA"/>
+      </stereotypes>
+      <visibility xmi:id="_tG_-sLDTEe2Eq-A42o2mnA" label="-"/>
+      <cardinality xmi:id="_tG_-sbDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <type xmi:id="_tG_-srDTEe2Eq-A42o2mnA" name="ArrayList">
+        <modelElement href="Taller2_Hamburguesas.uml#_tFVxw7DTEe2Eq-A42o2mnA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tG_-s7DTEe2Eq-A42o2mnA" name="bebidas">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFmQdrDTEe2Eq-A42o2mnA"/>
+      <stereotypes xmi:id="_tG_-tLDTEe2Eq-A42o2mnA" name="Generics">
+        <modelElement href="Taller2_Hamburguesas.uml#_tFm3gLDTEe2Eq-A42o2mnA"/>
+      </stereotypes>
+      <visibility xmi:id="_tG_-tbDTEe2Eq-A42o2mnA" label="-"/>
+      <cardinality xmi:id="_tG_-trDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <type xmi:id="_tG_-t7DTEe2Eq-A42o2mnA" name="ArrayList">
+        <modelElement href="Taller2_Hamburguesas.uml#_tFVxw7DTEe2Eq-A42o2mnA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tG_-uLDTEe2Eq-A42o2mnA" name="pedidoEnCurso">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFm3gbDTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tG_-ubDTEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_tG_-urDTEe2Eq-A42o2mnA" label="0..1" max="1"/>
+      <type xmi:id="_tG_-u7DTEe2Eq-A42o2mnA" name="Pedido">
+        <modelElement href="Taller2_Hamburguesas.uml#_tExKALDTEe2Eq-A42o2mnA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tG_-vLDTEe2Eq-A42o2mnA" name="pedidos">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFm3grDTEe2Eq-A42o2mnA"/>
+      <stereotypes xmi:id="_tG_-vbDTEe2Eq-A42o2mnA" name="Generics">
+        <modelElement href="Taller2_Hamburguesas.uml#_tFm3g7DTEe2Eq-A42o2mnA"/>
+      </stereotypes>
+      <visibility xmi:id="_tG_-vrDTEe2Eq-A42o2mnA" label="-"/>
+      <cardinality xmi:id="_tG_-v7DTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <type xmi:id="_tG_-wLDTEe2Eq-A42o2mnA" name="ArrayList">
+        <modelElement href="Taller2_Hamburguesas.uml#_tFVxw7DTEe2Eq-A42o2mnA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tG_-wbDTEe2Eq-A42o2mnA" name="indexPedido">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFm3hLDTEe2Eq-A42o2mnA"/>
+      <stereotypes xmi:id="_tG_-wrDTEe2Eq-A42o2mnA" name="LegacyStyledElement">
+        <modelElement href="Taller2_Hamburguesas.uml#_tFm3hbDTEe2Eq-A42o2mnA"/>
+      </stereotypes>
+      <visibility xmi:id="_tG_-w7DTEe2Eq-A42o2mnA" label="-"/>
+      <cardinality xmi:id="_tG_-xLDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <type xmi:id="_tG_-xbDTEe2Eq-A42o2mnA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_09k5ULDTEe2Eq-A42o2mnA" name="pedidos">
+      <modelElement href="Taller2_Hamburguesas.uml#_09idFLDTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_09k5UbDTEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_09k5UrDTEe2Eq-A42o2mnA" label="*" max="-1"/>
+      <type xmi:id="_09k5U7DTEe2Eq-A42o2mnA" name="Pedido">
+        <modelElement href="Taller2_Hamburguesas.uml#_tExKALDTEe2Eq-A42o2mnA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_T2pfSbDUEe2Eq-A42o2mnA" name="ingredientes">
+      <modelElement href="Taller2_Hamburguesas.uml#_T2oRJLDUEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_T2pfSrDUEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_T2pfS7DUEe2Eq-A42o2mnA" label="*" max="-1"/>
+      <type xmi:id="_T2pfTLDUEe2Eq-A42o2mnA" name="Ingrediente">
+        <modelElement href="Taller2_Hamburguesas.uml#_tEv74bDTEe2Eq-A42o2mnA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_njyYQLDUEe2Eq-A42o2mnA" name="pedidoEnCurso">
+      <modelElement href="Taller2_Hamburguesas.uml#_njxxMLDUEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_njyYQbDUEe2Eq-A42o2mnA" label="-"/>
+      <cardinality xmi:id="_njyYQrDUEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <type xmi:id="_18YOcLDUEe2Eq-A42o2mnA" name="Pedido">
+        <modelElement href="Taller2_Hamburguesas.uml#_tExKALDTEe2Eq-A42o2mnA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_DKeVgLDXEe2Eq-A42o2mnA" name="combos">
+      <modelElement href="Taller2_Hamburguesas.uml#_DKdHZLDXEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_DKeVgbDXEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_DKeVgrDXEe2Eq-A42o2mnA" label="*" max="-1"/>
+      <type xmi:id="_DKeVg7DXEe2Eq-A42o2mnA" name="Combo">
+        <modelElement href="Taller2_Hamburguesas.uml#_tEutwLDTEe2Eq-A42o2mnA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_tG_-xrDTEe2Eq-A42o2mnA" name="Restaurante">
+      <modelElement href="Taller2_Hamburguesas.uml#_tE2CgbDTEe2Eq-A42o2mnA"/>
+      <keywords xmi:id="_tG_-x7DTEe2Eq-A42o2mnA" keyword="create"/>
+      <visibility xmi:id="_tG_-yLDTEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_tG_-ybDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tG_-yrDTEe2Eq-A42o2mnA">
+        <modelElement href="Taller2_Hamburguesas.uml#_tE2ChLDTEe2Eq-A42o2mnA"/>
+        <type xmi:id="_tG_-y7DTEe2Eq-A42o2mnA" name="Restaurante">
+          <modelElement href="Taller2_Hamburguesas.uml#_tE2CgLDTEe2Eq-A42o2mnA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_tG_-zLDTEe2Eq-A42o2mnA" name="iniciarPedido">
+      <modelElement href="Taller2_Hamburguesas.uml#_tE2ChbDTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tG_-zbDTEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_tG_-zrDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_tG_-z7DTEe2Eq-A42o2mnA" name="nombreCliente">
+        <modelElement href="Taller2_Hamburguesas.uml#_tE2ChrDTEe2Eq-A42o2mnA"/>
+        <cardinality xmi:id="_tG_-0LDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+        <type xmi:id="_tG_-0bDTEe2Eq-A42o2mnA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_tG_-0rDTEe2Eq-A42o2mnA" name="direccionCliente">
+        <modelElement href="Taller2_Hamburguesas.uml#_tE2Ch7DTEe2Eq-A42o2mnA"/>
+        <cardinality xmi:id="_tG_-07DTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+        <type xmi:id="_tG_-1LDTEe2Eq-A42o2mnA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_tG_-1bDTEe2Eq-A42o2mnA" name="cerrarYGuardarPedido">
+      <modelElement href="Taller2_Hamburguesas.uml#_tE2pkLDTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tG_-1rDTEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_tG_-17DTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_tG_-2LDTEe2Eq-A42o2mnA" name="getMenuBase">
+      <modelElement href="Taller2_Hamburguesas.uml#_tE2pkbDTEe2Eq-A42o2mnA"/>
+      <stereotypes xmi:id="_tG_-2bDTEe2Eq-A42o2mnA" name="Generics">
+        <modelElement href="Taller2_Hamburguesas.uml#_tE2pkrDTEe2Eq-A42o2mnA"/>
+      </stereotypes>
+      <visibility xmi:id="_tG_-2rDTEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_tG_-27DTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tG_-3LDTEe2Eq-A42o2mnA">
+        <modelElement href="Taller2_Hamburguesas.uml#_tFe7sLDTEe2Eq-A42o2mnA"/>
+        <type xmi:id="_tG_-3bDTEe2Eq-A42o2mnA" name="ArrayList">
+          <modelElement href="Taller2_Hamburguesas.uml#_tFVxw7DTEe2Eq-A42o2mnA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_tG_-3rDTEe2Eq-A42o2mnA" name="revisar">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFbRULDTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tG_-37DTEe2Eq-A42o2mnA" label="-"/>
+      <cardinality xmi:id="_tG_-4LDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tG_-4bDTEe2Eq-A42o2mnA">
+        <modelElement href="Taller2_Hamburguesas.uml#_tFbRUrDTEe2Eq-A42o2mnA"/>
+        <type xmi:id="_tG_-4rDTEe2Eq-A42o2mnA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_tG_-47DTEe2Eq-A42o2mnA" name="pedido">
+        <modelElement href="Taller2_Hamburguesas.uml#_tFbRUbDTEe2Eq-A42o2mnA"/>
+        <cardinality xmi:id="_tG_-5LDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+        <type xmi:id="_tG_-5bDTEe2Eq-A42o2mnA" name="Pedido">
+          <modelElement href="Taller2_Hamburguesas.uml#_tExKALDTEe2Eq-A42o2mnA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_tG_-5rDTEe2Eq-A42o2mnA" name="cargarInformacionRestaurante">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFe7sbDTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tG_-57DTEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_tG_-6LDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_tG_-6bDTEe2Eq-A42o2mnA" name="archivoIngredientes">
+        <modelElement href="Taller2_Hamburguesas.uml#_tFe7srDTEe2Eq-A42o2mnA"/>
+        <cardinality xmi:id="_tG_-6rDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+        <type xmi:id="_tG_-67DTEe2Eq-A42o2mnA" name="File">
+          <modelElement href="Taller2_Hamburguesas.uml#_tFVKsrDTEe2Eq-A42o2mnA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_tG_-7LDTEe2Eq-A42o2mnA" name="archivoMenu">
+        <modelElement href="Taller2_Hamburguesas.uml#_tFe7s7DTEe2Eq-A42o2mnA"/>
+        <cardinality xmi:id="_tG_-7bDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+        <type xmi:id="_tG_-7rDTEe2Eq-A42o2mnA" name="File">
+          <modelElement href="Taller2_Hamburguesas.uml#_tFVKsrDTEe2Eq-A42o2mnA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_tG_-77DTEe2Eq-A42o2mnA" name="archivoCombos">
+        <modelElement href="Taller2_Hamburguesas.uml#_tFe7tLDTEe2Eq-A42o2mnA"/>
+        <cardinality xmi:id="_tG_-8LDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+        <type xmi:id="_tG_-8bDTEe2Eq-A42o2mnA" name="File">
+          <modelElement href="Taller2_Hamburguesas.uml#_tFVKsrDTEe2Eq-A42o2mnA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_tG_-8rDTEe2Eq-A42o2mnA" name="cargarInformacionRestaurante">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFe7tbDTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tG_-87DTEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_tG_-9LDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_tG_-9bDTEe2Eq-A42o2mnA" name="archivoIngredientes">
+        <modelElement href="Taller2_Hamburguesas.uml#_tFe7trDTEe2Eq-A42o2mnA"/>
+        <cardinality xmi:id="_tG_-9rDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+        <type xmi:id="_tG_-97DTEe2Eq-A42o2mnA" name="File">
+          <modelElement href="Taller2_Hamburguesas.uml#_tFVKsrDTEe2Eq-A42o2mnA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_tG_--LDTEe2Eq-A42o2mnA" name="archivoMenu">
+        <modelElement href="Taller2_Hamburguesas.uml#_tFe7t7DTEe2Eq-A42o2mnA"/>
+        <cardinality xmi:id="_tG_--bDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+        <type xmi:id="_tG_--rDTEe2Eq-A42o2mnA" name="File">
+          <modelElement href="Taller2_Hamburguesas.uml#_tFVKsrDTEe2Eq-A42o2mnA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_tG_--7DTEe2Eq-A42o2mnA" name="archivoCombos">
+        <modelElement href="Taller2_Hamburguesas.uml#_tFe7uLDTEe2Eq-A42o2mnA"/>
+        <cardinality xmi:id="_tG_-_LDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+        <type xmi:id="_tG_-_bDTEe2Eq-A42o2mnA" name="File">
+          <modelElement href="Taller2_Hamburguesas.uml#_tFVKsrDTEe2Eq-A42o2mnA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_tG_-_rDTEe2Eq-A42o2mnA" name="archivoBebidas">
+        <modelElement href="Taller2_Hamburguesas.uml#_tFe7ubDTEe2Eq-A42o2mnA"/>
+        <cardinality xmi:id="_tG_-_7DTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+        <type xmi:id="_tG__ALDTEe2Eq-A42o2mnA" name="File">
+          <modelElement href="Taller2_Hamburguesas.uml#_tFVKsrDTEe2Eq-A42o2mnA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_tG__AbDTEe2Eq-A42o2mnA" name="cargarIngredientes">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFfiwLDTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tG__ArDTEe2Eq-A42o2mnA" label="-"/>
+      <cardinality xmi:id="_tG__A7DTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_tG__BLDTEe2Eq-A42o2mnA" name="archivoIngredientes">
+        <modelElement href="Taller2_Hamburguesas.uml#_tFfiwbDTEe2Eq-A42o2mnA"/>
+        <cardinality xmi:id="_tG__BbDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+        <type xmi:id="_tG__BrDTEe2Eq-A42o2mnA" name="File">
+          <modelElement href="Taller2_Hamburguesas.uml#_tFVKsrDTEe2Eq-A42o2mnA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_tG__B7DTEe2Eq-A42o2mnA" name="cargarMenu">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFfiwrDTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tG__CLDTEe2Eq-A42o2mnA" label="-"/>
+      <cardinality xmi:id="_tG__CbDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_tG__CrDTEe2Eq-A42o2mnA" name="archivoMenu">
+        <modelElement href="Taller2_Hamburguesas.uml#_tFfiw7DTEe2Eq-A42o2mnA"/>
+        <cardinality xmi:id="_tG__C7DTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+        <type xmi:id="_tG__DLDTEe2Eq-A42o2mnA" name="File">
+          <modelElement href="Taller2_Hamburguesas.uml#_tFVKsrDTEe2Eq-A42o2mnA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_tG__DbDTEe2Eq-A42o2mnA" name="cargarCombos">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFfixLDTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tG__DrDTEe2Eq-A42o2mnA" label="-"/>
+      <cardinality xmi:id="_tG__D7DTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_tG__ELDTEe2Eq-A42o2mnA" name="archivoCombos">
+        <modelElement href="Taller2_Hamburguesas.uml#_tFfixbDTEe2Eq-A42o2mnA"/>
+        <cardinality xmi:id="_tG__EbDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+        <type xmi:id="_tG__ErDTEe2Eq-A42o2mnA" name="File">
+          <modelElement href="Taller2_Hamburguesas.uml#_tFVKsrDTEe2Eq-A42o2mnA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_tG__E7DTEe2Eq-A42o2mnA" name="cargarBebidas">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFfixrDTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tG__FLDTEe2Eq-A42o2mnA" label="-"/>
+      <cardinality xmi:id="_tG__FbDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_tG__FrDTEe2Eq-A42o2mnA" name="archivoBebidas">
+        <modelElement href="Taller2_Hamburguesas.uml#_tFfix7DTEe2Eq-A42o2mnA"/>
+        <cardinality xmi:id="_tG__F7DTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+        <type xmi:id="_tG__GLDTEe2Eq-A42o2mnA" name="File">
+          <modelElement href="Taller2_Hamburguesas.uml#_tFVKsrDTEe2Eq-A42o2mnA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_-MuUALDUEe2Eq-A42o2mnA" name="getPedidoEnCurso">
+      <modelElement href="Taller2_Hamburguesas.uml#_-Mts8LDUEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_-MuUAbDUEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_-MuUArDUEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_-MuUA7DUEe2Eq-A42o2mnA">
+        <modelElement href="Taller2_Hamburguesas.uml#_-Mts8bDUEe2Eq-A42o2mnA"/>
+        <type xmi:id="_-MuUBLDUEe2Eq-A42o2mnA" name="Pedido">
+          <modelElement href="Taller2_Hamburguesas.uml#_tExKALDTEe2Eq-A42o2mnA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_BfWiYLDVEe2Eq-A42o2mnA" name="getPedidos">
+      <modelElement href="Taller2_Hamburguesas.uml#_BfV7ULDVEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_BfWiYbDVEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_BfWiYrDVEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_BfWiY7DVEe2Eq-A42o2mnA">
+        <modelElement href="Taller2_Hamburguesas.uml#_BfV7UbDVEe2Eq-A42o2mnA"/>
+        <type xmi:id="_BfWiZLDVEe2Eq-A42o2mnA" name="ArrayList">
+          <modelElement href="Taller2_Hamburguesas.uml#_tFVxw7DTEe2Eq-A42o2mnA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_QGIlkLDVEe2Eq-A42o2mnA" name="getIngredientes">
+      <modelElement href="Taller2_Hamburguesas.uml#_QGH-gLDVEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_QGIlkbDVEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_QGIlkrDVEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_QGIlk7DVEe2Eq-A42o2mnA">
+        <modelElement href="Taller2_Hamburguesas.uml#_QGH-gbDVEe2Eq-A42o2mnA"/>
+        <type xmi:id="_QGIllLDVEe2Eq-A42o2mnA" name="ArrayList">
+          <modelElement href="Taller2_Hamburguesas.uml#_tFVxw7DTEe2Eq-A42o2mnA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_SICy8LDVEe2Eq-A42o2mnA" name="getCombos">
+      <modelElement href="Taller2_Hamburguesas.uml#_SICL4LDVEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_SICy8bDVEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_SICy8rDVEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SICy87DVEe2Eq-A42o2mnA">
+        <modelElement href="Taller2_Hamburguesas.uml#_SICL4bDVEe2Eq-A42o2mnA"/>
+        <type xmi:id="_SICy9LDVEe2Eq-A42o2mnA" name="ArrayList">
+          <modelElement href="Taller2_Hamburguesas.uml#_tFVxw7DTEe2Eq-A42o2mnA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_TbjpQLDVEe2Eq-A42o2mnA" name="getBebidas">
+      <modelElement href="Taller2_Hamburguesas.uml#_TbjCMLDVEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_TbjpQbDVEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_TbjpQrDVEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_TbjpQ7DVEe2Eq-A42o2mnA">
+        <modelElement href="Taller2_Hamburguesas.uml#_TbjCMbDVEe2Eq-A42o2mnA"/>
+        <type xmi:id="_TbjpRLDVEe2Eq-A42o2mnA" name="ArrayList">
+          <modelElement href="Taller2_Hamburguesas.uml#_tFVxw7DTEe2Eq-A42o2mnA"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_tG3bxbDTEe2Eq-A42o2mnA" name="Aplicacion" associationsOut="_tG20sLDTEe2Eq-A42o2mnA">
+    <modelElement href="Taller2_Hamburguesas.uml#_tErqcLDTEe2Eq-A42o2mnA"/>
+    <visualProperties xmi:id="_tG3bxrDTEe2Eq-A42o2mnA" position="-1971.0,405.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_tG3bx7DTEe2Eq-A42o2mnA" label="+"/>
+    <attributes xmi:id="_tG3byLDTEe2Eq-A42o2mnA" name="restaurante">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFgw4LDTEe2Eq-A42o2mnA"/>
+      <stereotypes xmi:id="_tG3bybDTEe2Eq-A42o2mnA" name="LegacyStyledElement">
+        <modelElement href="Taller2_Hamburguesas.uml#_tFgw4bDTEe2Eq-A42o2mnA"/>
+      </stereotypes>
+      <visibility xmi:id="_tG3byrDTEe2Eq-A42o2mnA" label="-"/>
+      <cardinality xmi:id="_tG3by7DTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <type xmi:id="_tG3bzLDTEe2Eq-A42o2mnA" name="Restaurante">
+        <modelElement href="Taller2_Hamburguesas.uml#_tE2CgLDTEe2Eq-A42o2mnA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_C8N-cbDUEe2Eq-A42o2mnA" name="restaurante">
+      <modelElement href="Taller2_Hamburguesas.uml#_C8N-cLDUEe2Eq-A42o2mnA"/>
+      <visualProperties xmi:id="_H571oLDUEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_C8N-crDUEe2Eq-A42o2mnA" label="-"/>
+      <cardinality xmi:id="_C8N-c7DUEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <type xmi:id="_FMDTELDUEe2Eq-A42o2mnA" name="Restaurante">
+        <modelElement href="Taller2_Hamburguesas.uml#_tE2CgLDTEe2Eq-A42o2mnA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_tG3bzbDTEe2Eq-A42o2mnA" name="mostrarMenu">
+      <modelElement href="Taller2_Hamburguesas.uml#_tEsRgLDTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tG3bzrDTEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_tG3bz7DTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_tG3b0LDTEe2Eq-A42o2mnA" name="mostrarCombos">
+      <modelElement href="Taller2_Hamburguesas.uml#_tEsRgbDTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tG3b0bDTEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_tG3b0rDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_tG3b07DTEe2Eq-A42o2mnA" name="mostrarAgregarElementos">
+      <modelElement href="Taller2_Hamburguesas.uml#_tEsRgrDTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tG3b1LDTEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_tG3b1bDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_tG3b1rDTEe2Eq-A42o2mnA" name="mostrarOpciones">
+      <modelElement href="Taller2_Hamburguesas.uml#_tEsRg7DTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tG3b17DTEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_tG3b2LDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_tG3b2bDTEe2Eq-A42o2mnA" name="ejecutarOpcion">
+      <modelElement href="Taller2_Hamburguesas.uml#_tEsRhLDTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tG3b2rDTEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_tG3b27DTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_tG3b3LDTEe2Eq-A42o2mnA" name="opcionSeleccionada">
+        <modelElement href="Taller2_Hamburguesas.uml#_tEsRhbDTEe2Eq-A42o2mnA"/>
+        <cardinality xmi:id="_tG3b3bDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+        <type xmi:id="_tG3b3rDTEe2Eq-A42o2mnA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_tG3b37DTEe2Eq-A42o2mnA" name="cargarArchivos">
+      <modelElement href="Taller2_Hamburguesas.uml#_tEs4kLDTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tG3b4LDTEe2Eq-A42o2mnA" label="-"/>
+      <cardinality xmi:id="_tG3b4bDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_tG3b4rDTEe2Eq-A42o2mnA" name="ejecutarIniciarPedido">
+      <modelElement href="Taller2_Hamburguesas.uml#_tEs4kbDTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tG3b47DTEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_tG3b5LDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_tG3b5bDTEe2Eq-A42o2mnA" name="ejecutarAgregarElemento">
+      <modelElement href="Taller2_Hamburguesas.uml#_tEs4krDTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tG3b5rDTEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_tG3b57DTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_tG3b6LDTEe2Eq-A42o2mnA" name="ejecutarCerrarPedido">
+      <modelElement href="Taller2_Hamburguesas.uml#_tEs4k7DTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tG3b6bDTEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_tG3b6rDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_tG3b67DTEe2Eq-A42o2mnA" name="ejecutarConsultarInformacionPedido">
+      <modelElement href="Taller2_Hamburguesas.uml#_tEs4lLDTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tG3b7LDTEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_tG3b7bDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_tG3b7rDTEe2Eq-A42o2mnA" name="main" staticOperation="true">
+      <modelElement href="Taller2_Hamburguesas.uml#_tEs4lbDTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tG3b77DTEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_tG3b8LDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_tG3b8bDTEe2Eq-A42o2mnA" name="args">
+        <modelElement href="Taller2_Hamburguesas.uml#_tEs4lrDTEe2Eq-A42o2mnA"/>
+        <cardinality xmi:id="_tG3b8rDTEe2Eq-A42o2mnA" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_tG3b87DTEe2Eq-A42o2mnA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_tGzxabDTEe2Eq-A42o2mnA" name="AplicacionModificada" associationsOut="_tGzxYLDTEe2Eq-A42o2mnA">
+    <modelElement href="Taller2_Hamburguesas.uml#_tEtfoLDTEe2Eq-A42o2mnA"/>
+    <visualProperties xmi:id="_tGzxarDTEe2Eq-A42o2mnA" position="-1663.0,410.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_tGzxa7DTEe2Eq-A42o2mnA" label="+"/>
+    <attributes xmi:id="_tGzxbLDTEe2Eq-A42o2mnA" name="restaurante">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFhX8LDTEe2Eq-A42o2mnA"/>
+      <stereotypes xmi:id="_tGzxbbDTEe2Eq-A42o2mnA" name="LegacyStyledElement">
+        <modelElement href="Taller2_Hamburguesas.uml#_tFhX8bDTEe2Eq-A42o2mnA"/>
+      </stereotypes>
+      <visibility xmi:id="_tGzxbrDTEe2Eq-A42o2mnA" label="-"/>
+      <cardinality xmi:id="_tGzxb7DTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <type xmi:id="_tGzxcLDTEe2Eq-A42o2mnA" name="Restaurante">
+        <modelElement href="Taller2_Hamburguesas.uml#_tE2CgLDTEe2Eq-A42o2mnA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MDj9cbDUEe2Eq-A42o2mnA" name="restaurant">
+      <modelElement href="Taller2_Hamburguesas.uml#_MDj9cLDUEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_MDj9crDUEe2Eq-A42o2mnA" label="-"/>
+      <cardinality xmi:id="_MDj9c7DUEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <type xmi:id="_OKAFgLDUEe2Eq-A42o2mnA" name="Restaurante">
+        <modelElement href="Taller2_Hamburguesas.uml#_tE2CgLDTEe2Eq-A42o2mnA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_tGzxcbDTEe2Eq-A42o2mnA" name="mostrarMenu">
+      <modelElement href="Taller2_Hamburguesas.uml#_tEtfobDTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tGzxcrDTEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_tGzxc7DTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_tGzxdLDTEe2Eq-A42o2mnA" name="mostrarCombos">
+      <modelElement href="Taller2_Hamburguesas.uml#_tEtforDTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tGzxdbDTEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_tGzxdrDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_tGzxd7DTEe2Eq-A42o2mnA" name="mostrarBebidas">
+      <modelElement href="Taller2_Hamburguesas.uml#_tEtfo7DTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tGzxeLDTEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_tGzxebDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_tGzxerDTEe2Eq-A42o2mnA" name="mostrarAgregarElementos">
+      <modelElement href="Taller2_Hamburguesas.uml#_tEtfpLDTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tGzxe7DTEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_tGzxfLDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_tGzxfbDTEe2Eq-A42o2mnA" name="mostrarOpciones">
+      <modelElement href="Taller2_Hamburguesas.uml#_tEtfpbDTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tGzxfrDTEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_tGzxf7DTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_tGzxgLDTEe2Eq-A42o2mnA" name="ejecutarOpcion">
+      <modelElement href="Taller2_Hamburguesas.uml#_tEuGsLDTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tGzxgbDTEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_tGzxgrDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_tGzxg7DTEe2Eq-A42o2mnA" name="opcionSeleccionada">
+        <modelElement href="Taller2_Hamburguesas.uml#_tEuGsbDTEe2Eq-A42o2mnA"/>
+        <cardinality xmi:id="_tGzxhLDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+        <type xmi:id="_tGzxhbDTEe2Eq-A42o2mnA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_tGzxhrDTEe2Eq-A42o2mnA" name="cargarArchivos">
+      <modelElement href="Taller2_Hamburguesas.uml#_tEuGsrDTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tGzxh7DTEe2Eq-A42o2mnA" label="-"/>
+      <cardinality xmi:id="_tGzxiLDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_tGzxibDTEe2Eq-A42o2mnA" name="ejecutarIniciarPedido">
+      <modelElement href="Taller2_Hamburguesas.uml#_tEuGs7DTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tGzxirDTEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_tGzxi7DTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_tGzxjLDTEe2Eq-A42o2mnA" name="ejecutarAgregarElemento">
+      <modelElement href="Taller2_Hamburguesas.uml#_tEuGtLDTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tGzxjbDTEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_tGzxjrDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_tGzxj7DTEe2Eq-A42o2mnA" name="ejecutarCerrarPedido">
+      <modelElement href="Taller2_Hamburguesas.uml#_tEuGtbDTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tGzxkLDTEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_tGzxkbDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_tGzxkrDTEe2Eq-A42o2mnA" name="ejecutarConsultarInformacionPedido">
+      <modelElement href="Taller2_Hamburguesas.uml#_tEuGtrDTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tGzxk7DTEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_tGzxlLDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_tGzxlbDTEe2Eq-A42o2mnA" name="main" staticOperation="true">
+      <modelElement href="Taller2_Hamburguesas.uml#_tEuGt7DTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tGzxlrDTEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_tGzxl7DTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_tGzxmLDTEe2Eq-A42o2mnA" name="args">
+        <modelElement href="Taller2_Hamburguesas.uml#_tEuGuLDTEe2Eq-A42o2mnA"/>
+        <cardinality xmi:id="_tGzxmbDTEe2Eq-A42o2mnA" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_tGzxmrDTEe2Eq-A42o2mnA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_tG1mkLDTEe2Eq-A42o2mnA" name="Ingrediente" associationsIn="_T2pfQLDUEe2Eq-A42o2mnA _se6jkLDWEe2Eq-A42o2mnA _sw0L4LDWEe2Eq-A42o2mnA">
+    <modelElement href="Taller2_Hamburguesas.uml#_tEv74bDTEe2Eq-A42o2mnA"/>
+    <visualProperties xmi:id="_tG1mkbDTEe2Eq-A42o2mnA" position="-1285.0,332.0" size="474.0,200.0"/>
+    <visibility xmi:id="_tG1mkrDTEe2Eq-A42o2mnA" label="+"/>
+    <attributes xmi:id="_tG1mk7DTEe2Eq-A42o2mnA" name="nombre">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFimEbDTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tG1mlLDTEe2Eq-A42o2mnA" label="-"/>
+      <cardinality xmi:id="_tG1mlbDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <type xmi:id="_tG1mlrDTEe2Eq-A42o2mnA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tG1ml7DTEe2Eq-A42o2mnA" name="costoAdicional">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFjNILDTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tG1mmLDTEe2Eq-A42o2mnA" label="-"/>
+      <cardinality xmi:id="_tG1mmbDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <type xmi:id="_tG1mmrDTEe2Eq-A42o2mnA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tG1mm7DTEe2Eq-A42o2mnA" name="calorias">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFjNIbDTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tG1mnLDTEe2Eq-A42o2mnA" label="-"/>
+      <cardinality xmi:id="_tG1mnbDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <type xmi:id="_tG1mnrDTEe2Eq-A42o2mnA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_tG1mn7DTEe2Eq-A42o2mnA" name="Ingrediente">
+      <modelElement href="Taller2_Hamburguesas.uml#_tEwi8LDTEe2Eq-A42o2mnA"/>
+      <keywords xmi:id="_tG1moLDTEe2Eq-A42o2mnA" keyword="create"/>
+      <visibility xmi:id="_tG1mobDTEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_tG1morDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tG1mo7DTEe2Eq-A42o2mnA">
+        <modelElement href="Taller2_Hamburguesas.uml#_tEwi9bDTEe2Eq-A42o2mnA"/>
+        <type xmi:id="_tG1mpLDTEe2Eq-A42o2mnA" name="Ingrediente">
+          <modelElement href="Taller2_Hamburguesas.uml#_tEv74bDTEe2Eq-A42o2mnA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_tG1mpbDTEe2Eq-A42o2mnA" name="nombre">
+        <modelElement href="Taller2_Hamburguesas.uml#_tEwi8bDTEe2Eq-A42o2mnA"/>
+        <cardinality xmi:id="_tG1mprDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+        <type xmi:id="_tG1mp7DTEe2Eq-A42o2mnA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_tG1mqLDTEe2Eq-A42o2mnA" name="costoAdicional">
+        <modelElement href="Taller2_Hamburguesas.uml#_tEwi8rDTEe2Eq-A42o2mnA"/>
+        <cardinality xmi:id="_tG1mqbDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+        <type xmi:id="_tG1mqrDTEe2Eq-A42o2mnA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_tG1mq7DTEe2Eq-A42o2mnA" name="Ingrediente">
+      <modelElement href="Taller2_Hamburguesas.uml#_tEwi9rDTEe2Eq-A42o2mnA"/>
+      <keywords xmi:id="_tG1mrLDTEe2Eq-A42o2mnA" keyword="create"/>
+      <visibility xmi:id="_tG1mrbDTEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_tG1mrrDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tG1mr7DTEe2Eq-A42o2mnA">
+        <modelElement href="Taller2_Hamburguesas.uml#_tEwi_LDTEe2Eq-A42o2mnA"/>
+        <type xmi:id="_tG1msLDTEe2Eq-A42o2mnA" name="Ingrediente">
+          <modelElement href="Taller2_Hamburguesas.uml#_tEv74bDTEe2Eq-A42o2mnA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_tG1msbDTEe2Eq-A42o2mnA" name="nombre">
+        <modelElement href="Taller2_Hamburguesas.uml#_tEwi97DTEe2Eq-A42o2mnA"/>
+        <cardinality xmi:id="_tG1msrDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+        <type xmi:id="_tG1ms7DTEe2Eq-A42o2mnA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_tG1mtLDTEe2Eq-A42o2mnA" name="costoAdicional">
+        <modelElement href="Taller2_Hamburguesas.uml#_tEwi-LDTEe2Eq-A42o2mnA"/>
+        <cardinality xmi:id="_tG1mtbDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+        <type xmi:id="_tG1mtrDTEe2Eq-A42o2mnA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_tG1mt7DTEe2Eq-A42o2mnA" name="calorias">
+        <modelElement href="Taller2_Hamburguesas.uml#_tEwi-bDTEe2Eq-A42o2mnA"/>
+        <cardinality xmi:id="_tG1muLDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+        <type xmi:id="_tG1mubDTEe2Eq-A42o2mnA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_b4HbUrDUEe2Eq-A42o2mnA" name="getNombre">
+      <modelElement href="Taller2_Hamburguesas.uml#_b4HbULDUEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_b4HbU7DUEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_b4HbVLDUEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_b4HbVbDUEe2Eq-A42o2mnA">
+        <modelElement href="Taller2_Hamburguesas.uml#_b4HbUbDUEe2Eq-A42o2mnA"/>
+        <type xmi:id="_b4HbVrDUEe2Eq-A42o2mnA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_dUn1krDUEe2Eq-A42o2mnA" name="getCostoAdicional">
+      <modelElement href="Taller2_Hamburguesas.uml#_dUn1kLDUEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_dUn1k7DUEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_dUn1lLDUEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_dUn1lbDUEe2Eq-A42o2mnA">
+        <modelElement href="Taller2_Hamburguesas.uml#_dUn1kbDUEe2Eq-A42o2mnA"/>
+        <type xmi:id="_dUn1lrDUEe2Eq-A42o2mnA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_ecI3QrDUEe2Eq-A42o2mnA" name="getCalorias">
+      <modelElement href="Taller2_Hamburguesas.uml#_ecI3QLDUEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_ecI3Q7DUEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_ecI3RLDUEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ecI3RbDUEe2Eq-A42o2mnA">
+        <modelElement href="Taller2_Hamburguesas.uml#_ecI3QbDUEe2Eq-A42o2mnA"/>
+        <type xmi:id="_ecI3RrDUEe2Eq-A42o2mnA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_tG7GILDTEe2Eq-A42o2mnA" name="ProductoAjustado" associationsOut="_tG5Q8bDTEe2Eq-A42o2mnA _tG5Q8rDTEe2Eq-A42o2mnA _se6jkLDWEe2Eq-A42o2mnA _sw0L4LDWEe2Eq-A42o2mnA _VM9qkLDXEe2Eq-A42o2mnA" generalizations="_tG5Q8LDTEe2Eq-A42o2mnA">
+    <modelElement href="Taller2_Hamburguesas.uml#_tEzmRLDTEe2Eq-A42o2mnA"/>
+    <visualProperties xmi:id="_tG7GIbDTEe2Eq-A42o2mnA" position="-538.0,269.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_tG7GIrDTEe2Eq-A42o2mnA" label="+"/>
+    <attributes xmi:id="_tG7GI7DTEe2Eq-A42o2mnA" name="nombre">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFkbQrDTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tG7GJLDTEe2Eq-A42o2mnA" label="-"/>
+      <cardinality xmi:id="_tG7GJbDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <type xmi:id="_tG7GJrDTEe2Eq-A42o2mnA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tG7GJ7DTEe2Eq-A42o2mnA" name="precio">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFkbQ7DTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tG7GKLDTEe2Eq-A42o2mnA" label="-"/>
+      <cardinality xmi:id="_tG7GKbDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <type xmi:id="_tG7GKrDTEe2Eq-A42o2mnA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tG7GK7DTEe2Eq-A42o2mnA" name="preciobase">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFkbRLDTEe2Eq-A42o2mnA"/>
+      <stereotypes xmi:id="_tG7GLLDTEe2Eq-A42o2mnA" name="LegacyStyledElement">
+        <modelElement href="Taller2_Hamburguesas.uml#_tFkbRbDTEe2Eq-A42o2mnA"/>
+      </stereotypes>
+      <visibility xmi:id="_tG7GLbDTEe2Eq-A42o2mnA" label="-"/>
+      <cardinality xmi:id="_tG7GLrDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <type xmi:id="_tG7GL7DTEe2Eq-A42o2mnA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tG7GMLDTEe2Eq-A42o2mnA" name="caloriasbase">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFkbRrDTEe2Eq-A42o2mnA"/>
+      <stereotypes xmi:id="_tG7GMbDTEe2Eq-A42o2mnA" name="LegacyStyledElement">
+        <modelElement href="Taller2_Hamburguesas.uml#_tFlCULDTEe2Eq-A42o2mnA"/>
+      </stereotypes>
+      <visibility xmi:id="_tG7GMrDTEe2Eq-A42o2mnA" label="-"/>
+      <cardinality xmi:id="_tG7GM7DTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <type xmi:id="_tG7GNLDTEe2Eq-A42o2mnA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tG7GNbDTEe2Eq-A42o2mnA" name="calorias">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFlCUbDTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tG7GNrDTEe2Eq-A42o2mnA" label="-"/>
+      <cardinality xmi:id="_tG7GN7DTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <type xmi:id="_tG7GOLDTEe2Eq-A42o2mnA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tG7GObDTEe2Eq-A42o2mnA" name="agregados">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFlCUrDTEe2Eq-A42o2mnA"/>
+      <stereotypes xmi:id="_tG7GOrDTEe2Eq-A42o2mnA" name="Generics">
+        <modelElement href="Taller2_Hamburguesas.uml#_tFlCU7DTEe2Eq-A42o2mnA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_tG7GO7DTEe2Eq-A42o2mnA" name="LegacyStyledElement">
+        <modelElement href="Taller2_Hamburguesas.uml#_tFlCVLDTEe2Eq-A42o2mnA"/>
+      </stereotypes>
+      <visibility xmi:id="_tG7GPLDTEe2Eq-A42o2mnA" label="-"/>
+      <cardinality xmi:id="_tG7GPbDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <type xmi:id="_tG7GPrDTEe2Eq-A42o2mnA" name="ArrayList">
+        <modelElement href="Taller2_Hamburguesas.uml#_tFVxw7DTEe2Eq-A42o2mnA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tG7GP7DTEe2Eq-A42o2mnA" name="eliminados">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFlCVbDTEe2Eq-A42o2mnA"/>
+      <stereotypes xmi:id="_tG7GQLDTEe2Eq-A42o2mnA" name="Generics">
+        <modelElement href="Taller2_Hamburguesas.uml#_tFlCVrDTEe2Eq-A42o2mnA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_tG7GQbDTEe2Eq-A42o2mnA" name="LegacyStyledElement">
+        <modelElement href="Taller2_Hamburguesas.uml#_tFlpYLDTEe2Eq-A42o2mnA"/>
+      </stereotypes>
+      <visibility xmi:id="_tG7GQrDTEe2Eq-A42o2mnA" label="-"/>
+      <cardinality xmi:id="_tG7GQ7DTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <type xmi:id="_tG7GRLDTEe2Eq-A42o2mnA" name="ArrayList">
+        <modelElement href="Taller2_Hamburguesas.uml#_tFVxw7DTEe2Eq-A42o2mnA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_se7KoLDWEe2Eq-A42o2mnA" name="eliminados">
+      <modelElement href="Taller2_Hamburguesas.uml#_se58hLDWEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_se7KobDWEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_se7KorDWEe2Eq-A42o2mnA" label="*" max="-1"/>
+      <type xmi:id="_se7Ko7DWEe2Eq-A42o2mnA" name="Ingrediente">
+        <modelElement href="Taller2_Hamburguesas.uml#_tEv74bDTEe2Eq-A42o2mnA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_sw0L6bDWEe2Eq-A42o2mnA" name="agregados">
+      <modelElement href="Taller2_Hamburguesas.uml#_swzk07DWEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_sw0L6rDWEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_sw0L67DWEe2Eq-A42o2mnA" label="*" max="-1"/>
+      <type xmi:id="_sw0L7LDWEe2Eq-A42o2mnA" name="Ingrediente">
+        <modelElement href="Taller2_Hamburguesas.uml#_tEv74bDTEe2Eq-A42o2mnA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VM-RoLDXEe2Eq-A42o2mnA" name="base">
+      <modelElement href="Taller2_Hamburguesas.uml#_VM9DgrDXEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_VM-RobDXEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_VM-RorDXEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <type xmi:id="_VM-Ro7DXEe2Eq-A42o2mnA" name="ProductoMenu">
+        <modelElement href="Taller2_Hamburguesas.uml#_tE00YLDTEe2Eq-A42o2mnA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_tG7GRbDTEe2Eq-A42o2mnA" name="generarTextoFactura">
+      <modelElement href="Taller2_Hamburguesas.uml#_tE0NULDTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tG7GRrDTEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_tG7GR7DTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tG7GSLDTEe2Eq-A42o2mnA">
+        <modelElement href="Taller2_Hamburguesas.uml#_tE0NUbDTEe2Eq-A42o2mnA"/>
+        <type xmi:id="_tG7GSbDTEe2Eq-A42o2mnA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_tG7GSrDTEe2Eq-A42o2mnA" name="ProductoAjustado">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFaDMLDTEe2Eq-A42o2mnA"/>
+      <keywords xmi:id="_tG7GS7DTEe2Eq-A42o2mnA" keyword="create"/>
+      <visibility xmi:id="_tG7GTLDTEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_tG7GTbDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tG7GTrDTEe2Eq-A42o2mnA">
+        <modelElement href="Taller2_Hamburguesas.uml#_tFaDNLDTEe2Eq-A42o2mnA"/>
+        <type xmi:id="_tG7GT7DTEe2Eq-A42o2mnA" name="ProductoAjustado">
+          <modelElement href="Taller2_Hamburguesas.uml#_tEzmRLDTEe2Eq-A42o2mnA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_tG7GULDTEe2Eq-A42o2mnA" name="base">
+        <modelElement href="Taller2_Hamburguesas.uml#_tFaDMbDTEe2Eq-A42o2mnA"/>
+        <cardinality xmi:id="_tG7GUbDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+        <type xmi:id="_tG7GUrDTEe2Eq-A42o2mnA" name="ProductoMenu">
+          <modelElement href="Taller2_Hamburguesas.uml#_tE00YLDTEe2Eq-A42o2mnA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_tG7GU7DTEe2Eq-A42o2mnA" name="agregarIngrediente">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFaDNbDTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tG7GVLDTEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_tG7GVbDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_tG7GVrDTEe2Eq-A42o2mnA" name="ingrediente">
+        <modelElement href="Taller2_Hamburguesas.uml#_tFaDNrDTEe2Eq-A42o2mnA"/>
+        <cardinality xmi:id="_tG7GV7DTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+        <type xmi:id="_tG7GWLDTEe2Eq-A42o2mnA" name="Ingrediente">
+          <modelElement href="Taller2_Hamburguesas.uml#_tEv74bDTEe2Eq-A42o2mnA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_tG7GWbDTEe2Eq-A42o2mnA" name="eliminarIngrediente">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFaDN7DTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tG7GWrDTEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_tG7GW7DTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_tG7GXLDTEe2Eq-A42o2mnA" name="ingrediente">
+        <modelElement href="Taller2_Hamburguesas.uml#_tFaDOLDTEe2Eq-A42o2mnA"/>
+        <cardinality xmi:id="_tG7GXbDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+        <type xmi:id="_tG7GXrDTEe2Eq-A42o2mnA" name="Ingrediente">
+          <modelElement href="Taller2_Hamburguesas.uml#_tEv74bDTEe2Eq-A42o2mnA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_awyU8rDWEe2Eq-A42o2mnA" name="getNombre">
+      <modelElement href="Taller2_Hamburguesas.uml#_awyU8LDWEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_awyU87DWEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_awyU9LDWEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_awyU9bDWEe2Eq-A42o2mnA">
+        <modelElement href="Taller2_Hamburguesas.uml#_awyU8bDWEe2Eq-A42o2mnA"/>
+        <type xmi:id="_awyU9rDWEe2Eq-A42o2mnA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_caMiwLDWEe2Eq-A42o2mnA" name="getPrecio">
+      <modelElement href="Taller2_Hamburguesas.uml#_caL7sLDWEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_caMiwbDWEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_caMiwrDWEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_caMiw7DWEe2Eq-A42o2mnA">
+        <modelElement href="Taller2_Hamburguesas.uml#_caL7sbDWEe2Eq-A42o2mnA"/>
+        <type xmi:id="_caMixLDWEe2Eq-A42o2mnA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_ellcQLDWEe2Eq-A42o2mnA" name="getCalorias">
+      <modelElement href="Taller2_Hamburguesas.uml#_elk1MLDWEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_ellcQbDWEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_ellcQrDWEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ellcQ7DWEe2Eq-A42o2mnA">
+        <modelElement href="Taller2_Hamburguesas.uml#_elk1MbDWEe2Eq-A42o2mnA"/>
+        <type xmi:id="_ellcRLDWEe2Eq-A42o2mnA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_tGwHErDTEe2Eq-A42o2mnA" name="Pedido" associationsIn="_tG87ULDTEe2Eq-A42o2mnA _09kSQLDTEe2Eq-A42o2mnA" associationsOut="_tGwHALDTEe2Eq-A42o2mnA _tGwHCbDTEe2Eq-A42o2mnA _7Tg1wLDVEe2Eq-A42o2mnA">
+    <modelElement href="Taller2_Hamburguesas.uml#_tExKALDTEe2Eq-A42o2mnA"/>
+    <visualProperties xmi:id="_tGwHE7DTEe2Eq-A42o2mnA" position="-1152.0,-631.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_tGwHFLDTEe2Eq-A42o2mnA" label="+"/>
+    <attributes xmi:id="_tGwHFbDTEe2Eq-A42o2mnA" name="numeroPedidos" staticAttribute="true">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFjNIrDTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tGwHFrDTEe2Eq-A42o2mnA" label="-"/>
+      <cardinality xmi:id="_tGwHF7DTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <type xmi:id="_tGwHGLDTEe2Eq-A42o2mnA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tGwHGbDTEe2Eq-A42o2mnA" name="idPedido">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFjNI7DTEe2Eq-A42o2mnA"/>
+      <stereotypes xmi:id="_tGwHGrDTEe2Eq-A42o2mnA" name="LegacyStyledElement">
+        <modelElement href="Taller2_Hamburguesas.uml#_tFjNJLDTEe2Eq-A42o2mnA"/>
+      </stereotypes>
+      <visibility xmi:id="_tGwHG7DTEe2Eq-A42o2mnA" label="-"/>
+      <cardinality xmi:id="_tGwHHLDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <type xmi:id="_tGwHHbDTEe2Eq-A42o2mnA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tGwHHrDTEe2Eq-A42o2mnA" name="nombreCliente">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFjNJbDTEe2Eq-A42o2mnA"/>
+      <stereotypes xmi:id="_tGwHH7DTEe2Eq-A42o2mnA" name="LegacyStyledElement">
+        <modelElement href="Taller2_Hamburguesas.uml#_tFj0MLDTEe2Eq-A42o2mnA"/>
+      </stereotypes>
+      <visibility xmi:id="_tGwHILDTEe2Eq-A42o2mnA" label="-"/>
+      <cardinality xmi:id="_tGwHIbDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <type xmi:id="_tGwHIrDTEe2Eq-A42o2mnA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tGwHI7DTEe2Eq-A42o2mnA" name="direccionCliente">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFj0MbDTEe2Eq-A42o2mnA"/>
+      <stereotypes xmi:id="_tGwHJLDTEe2Eq-A42o2mnA" name="LegacyStyledElement">
+        <modelElement href="Taller2_Hamburguesas.uml#_tFj0MrDTEe2Eq-A42o2mnA"/>
+      </stereotypes>
+      <visibility xmi:id="_tGwHJbDTEe2Eq-A42o2mnA" label="-"/>
+      <cardinality xmi:id="_tGwHJrDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <type xmi:id="_tGwHJ7DTEe2Eq-A42o2mnA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tGwHKLDTEe2Eq-A42o2mnA" name="elementosPedido">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFj0M7DTEe2Eq-A42o2mnA"/>
+      <stereotypes xmi:id="_tGwHKbDTEe2Eq-A42o2mnA" name="Generics">
+        <modelElement href="Taller2_Hamburguesas.uml#_tFj0NLDTEe2Eq-A42o2mnA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_tGwHKrDTEe2Eq-A42o2mnA" name="LegacyStyledElement">
+        <modelElement href="Taller2_Hamburguesas.uml#_tFkbQLDTEe2Eq-A42o2mnA"/>
+      </stereotypes>
+      <visibility xmi:id="_tGwHK7DTEe2Eq-A42o2mnA" label="-"/>
+      <cardinality xmi:id="_tGwHLLDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <type xmi:id="_tGwHLbDTEe2Eq-A42o2mnA" name="ArrayList">
+        <modelElement href="Taller2_Hamburguesas.uml#_tFVxw7DTEe2Eq-A42o2mnA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tGwHLrDTEe2Eq-A42o2mnA" name="factura">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFkbQbDTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tGwHL7DTEe2Eq-A42o2mnA" label="-"/>
+      <cardinality xmi:id="_tGwHMLDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <type xmi:id="_tGwHMbDTEe2Eq-A42o2mnA" name="File">
+        <modelElement href="Taller2_Hamburguesas.uml#_tFVKsrDTEe2Eq-A42o2mnA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_7Thc0LDVEe2Eq-A42o2mnA" name="producto">
+      <modelElement href="Taller2_Hamburguesas.uml#_7TfnpLDVEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_7Thc0bDVEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_7Thc0rDVEe2Eq-A42o2mnA" label="*" max="-1"/>
+      <type xmi:id="_7Thc07DVEe2Eq-A42o2mnA" name="Producto">
+        <modelElement href="Taller2_Hamburguesas.uml#_tEy_MLDTEe2Eq-A42o2mnA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_tGwHMrDTEe2Eq-A42o2mnA" name="Pedido">
+      <modelElement href="Taller2_Hamburguesas.uml#_tExKAbDTEe2Eq-A42o2mnA"/>
+      <keywords xmi:id="_tGwHM7DTEe2Eq-A42o2mnA" keyword="create"/>
+      <visibility xmi:id="_tGwHNLDTEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_tGwHNbDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tGwHNrDTEe2Eq-A42o2mnA">
+        <modelElement href="Taller2_Hamburguesas.uml#_tExKBrDTEe2Eq-A42o2mnA"/>
+        <type xmi:id="_tGwHN7DTEe2Eq-A42o2mnA" name="Pedido">
+          <modelElement href="Taller2_Hamburguesas.uml#_tExKALDTEe2Eq-A42o2mnA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_tGwHOLDTEe2Eq-A42o2mnA" name="nombreCliente">
+        <modelElement href="Taller2_Hamburguesas.uml#_tExKArDTEe2Eq-A42o2mnA"/>
+        <cardinality xmi:id="_tGwHObDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+        <type xmi:id="_tGwHOrDTEe2Eq-A42o2mnA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_tGwHO7DTEe2Eq-A42o2mnA" name="direccionCliente">
+        <modelElement href="Taller2_Hamburguesas.uml#_tExKA7DTEe2Eq-A42o2mnA"/>
+        <cardinality xmi:id="_tGwHPLDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+        <type xmi:id="_tGwHPbDTEe2Eq-A42o2mnA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_tGwHPrDTEe2Eq-A42o2mnA" name="getPedido">
+      <modelElement href="Taller2_Hamburguesas.uml#_tExxELDTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tGwHP7DTEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_tGwHQLDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tGwHQbDTEe2Eq-A42o2mnA">
+        <modelElement href="Taller2_Hamburguesas.uml#_tExxEbDTEe2Eq-A42o2mnA"/>
+        <type xmi:id="_tGwHQrDTEe2Eq-A42o2mnA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_tGwHQ7DTEe2Eq-A42o2mnA" name="getPrecioNetoPedido">
+      <modelElement href="Taller2_Hamburguesas.uml#_tExxErDTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tGwHRLDTEe2Eq-A42o2mnA" label="-"/>
+      <cardinality xmi:id="_tGwHRbDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tGwHRrDTEe2Eq-A42o2mnA">
+        <modelElement href="Taller2_Hamburguesas.uml#_tExxE7DTEe2Eq-A42o2mnA"/>
+        <type xmi:id="_tGwHR7DTEe2Eq-A42o2mnA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_tGwHSLDTEe2Eq-A42o2mnA" name="getPrecioTotalPedido">
+      <modelElement href="Taller2_Hamburguesas.uml#_tExxFLDTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tGwHSbDTEe2Eq-A42o2mnA" label="-"/>
+      <cardinality xmi:id="_tGwHSrDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tGwHS7DTEe2Eq-A42o2mnA">
+        <modelElement href="Taller2_Hamburguesas.uml#_tExxFbDTEe2Eq-A42o2mnA"/>
+        <type xmi:id="_tGwHTLDTEe2Eq-A42o2mnA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_tGwHTbDTEe2Eq-A42o2mnA" name="generarTextoFactura">
+      <modelElement href="Taller2_Hamburguesas.uml#_tExxFrDTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tGwHTrDTEe2Eq-A42o2mnA" label="-"/>
+      <cardinality xmi:id="_tGwHT7DTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tGwHULDTEe2Eq-A42o2mnA">
+        <modelElement href="Taller2_Hamburguesas.uml#_tExxF7DTEe2Eq-A42o2mnA"/>
+        <type xmi:id="_tGwHUbDTEe2Eq-A42o2mnA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_tGwuELDTEe2Eq-A42o2mnA" name="getElementos">
+      <modelElement href="Taller2_Hamburguesas.uml#_tExxGLDTEe2Eq-A42o2mnA"/>
+      <stereotypes xmi:id="_tGwuEbDTEe2Eq-A42o2mnA" name="Generics">
+        <modelElement href="Taller2_Hamburguesas.uml#_tEyYILDTEe2Eq-A42o2mnA"/>
+      </stereotypes>
+      <visibility xmi:id="_tGwuErDTEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_tGwuE7DTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tGwuFLDTEe2Eq-A42o2mnA">
+        <modelElement href="Taller2_Hamburguesas.uml#_tFdtkrDTEe2Eq-A42o2mnA"/>
+        <type xmi:id="_tGwuFbDTEe2Eq-A42o2mnA" name="ArrayList">
+          <modelElement href="Taller2_Hamburguesas.uml#_tFVxw7DTEe2Eq-A42o2mnA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_tGwuFrDTEe2Eq-A42o2mnA" name="agregarProducto">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFY1EbDTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tGwuF7DTEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_tGwuGLDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_tGwuGbDTEe2Eq-A42o2mnA" name="nuevoitem">
+        <modelElement href="Taller2_Hamburguesas.uml#_tFY1ErDTEe2Eq-A42o2mnA"/>
+        <cardinality xmi:id="_tGwuGrDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+        <type xmi:id="_tGwuG7DTEe2Eq-A42o2mnA" name="Producto">
+          <modelElement href="Taller2_Hamburguesas.uml#_tEy_MLDTEe2Eq-A42o2mnA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_tGwuHLDTEe2Eq-A42o2mnA" name="equals">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFY1E7DTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tGwuHbDTEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_tGwuHrDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tGwuH7DTEe2Eq-A42o2mnA">
+        <modelElement href="Taller2_Hamburguesas.uml#_tFY1FbDTEe2Eq-A42o2mnA"/>
+        <type xmi:id="_tGwuILDTEe2Eq-A42o2mnA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_tGwuIbDTEe2Eq-A42o2mnA" name="pedido">
+        <modelElement href="Taller2_Hamburguesas.uml#_tFY1FLDTEe2Eq-A42o2mnA"/>
+        <cardinality xmi:id="_tGwuIrDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+        <type xmi:id="_tGwuI7DTEe2Eq-A42o2mnA" name="Pedido">
+          <modelElement href="Taller2_Hamburguesas.uml#_tExKALDTEe2Eq-A42o2mnA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_tGwuJLDTEe2Eq-A42o2mnA" name="guardarFactura">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFdtkLDTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tGwuJbDTEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_tGwuJrDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_tGwuJ7DTEe2Eq-A42o2mnA" name="archivo">
+        <modelElement href="Taller2_Hamburguesas.uml#_tFdtkbDTEe2Eq-A42o2mnA"/>
+        <cardinality xmi:id="_tGwuKLDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+        <type xmi:id="_tGwuKbDTEe2Eq-A42o2mnA" name="File">
+          <modelElement href="Taller2_Hamburguesas.uml#_tFVKsrDTEe2Eq-A42o2mnA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_m17-UrDVEe2Eq-A42o2mnA" name="getFactura">
+      <modelElement href="Taller2_Hamburguesas.uml#_m17-ULDVEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_m17-U7DVEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_m17-VLDVEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_m17-VbDVEe2Eq-A42o2mnA">
+        <modelElement href="Taller2_Hamburguesas.uml#_m17-UbDVEe2Eq-A42o2mnA"/>
+        <type xmi:id="_m17-VrDVEe2Eq-A42o2mnA" name="File">
+          <modelElement href="Taller2_Hamburguesas.uml#_tFVKsrDTEe2Eq-A42o2mnA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_sYV28rDVEe2Eq-A42o2mnA" name="getNumeroPedidos">
+      <modelElement href="Taller2_Hamburguesas.uml#_sYV28LDVEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_sYV287DVEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_sYV29LDVEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_sYV29bDVEe2Eq-A42o2mnA">
+        <modelElement href="Taller2_Hamburguesas.uml#_sYV28bDVEe2Eq-A42o2mnA"/>
+        <type xmi:id="_sYV29rDVEe2Eq-A42o2mnA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_x793kLDVEe2Eq-A42o2mnA" name="setNumeroPedidos">
+      <modelElement href="Taller2_Hamburguesas.uml#_x79QgrDVEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_x793kbDVEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_x793krDVEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_x793k7DVEe2Eq-A42o2mnA">
+        <modelElement href="Taller2_Hamburguesas.uml#_x79Qg7DVEe2Eq-A42o2mnA"/>
+      </outParameters>
+      <parameters xmi:id="_x793lbDVEe2Eq-A42o2mnA" name="numeroPedidos">
+        <modelElement href="Taller2_Hamburguesas.uml#_x79QhLDVEe2Eq-A42o2mnA"/>
+        <cardinality xmi:id="_x793lrDVEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+        <type xmi:id="_x793l7DVEe2Eq-A42o2mnA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_tGtqwLDTEe2Eq-A42o2mnA" name="ProductoMenu" associationsIn="_RY1RoLDXEe2Eq-A42o2mnA _VM9qkLDXEe2Eq-A42o2mnA" generalizations="_tG6fELDTEe2Eq-A42o2mnA">
+    <modelElement href="Taller2_Hamburguesas.uml#_tE00YLDTEe2Eq-A42o2mnA"/>
+    <visualProperties xmi:id="_tGtqwbDTEe2Eq-A42o2mnA" position="-363.0,-225.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_tGtqwrDTEe2Eq-A42o2mnA" label="+"/>
+    <attributes xmi:id="_tGtqw7DTEe2Eq-A42o2mnA" name="nombre">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFlpYbDTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tGtqxLDTEe2Eq-A42o2mnA" label="-"/>
+      <cardinality xmi:id="_tGtqxbDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <type xmi:id="_tGtqxrDTEe2Eq-A42o2mnA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tGtqx7DTEe2Eq-A42o2mnA" name="precioBase">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFlpYrDTEe2Eq-A42o2mnA"/>
+      <stereotypes xmi:id="_tGtqyLDTEe2Eq-A42o2mnA" name="LegacyStyledElement">
+        <modelElement href="Taller2_Hamburguesas.uml#_tFlpY7DTEe2Eq-A42o2mnA"/>
+      </stereotypes>
+      <visibility xmi:id="_tGtqybDTEe2Eq-A42o2mnA" label="-"/>
+      <cardinality xmi:id="_tGtqyrDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <type xmi:id="_tGtqy7DTEe2Eq-A42o2mnA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tGtqzLDTEe2Eq-A42o2mnA" name="calorias">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFlpZLDTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tGtqzbDTEe2Eq-A42o2mnA" label="-"/>
+      <cardinality xmi:id="_tGtqzrDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <type xmi:id="_tGtqz7DTEe2Eq-A42o2mnA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_tGtq0LDTEe2Eq-A42o2mnA" name="ProductoMenu">
+      <modelElement href="Taller2_Hamburguesas.uml#_tE00YbDTEe2Eq-A42o2mnA"/>
+      <keywords xmi:id="_tGtq0bDTEe2Eq-A42o2mnA" keyword="create"/>
+      <visibility xmi:id="_tGtq0rDTEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_tGtq07DTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tGtq1LDTEe2Eq-A42o2mnA">
+        <modelElement href="Taller2_Hamburguesas.uml#_tE00ZrDTEe2Eq-A42o2mnA"/>
+        <type xmi:id="_tGtq1bDTEe2Eq-A42o2mnA" name="ProductoMenu">
+          <modelElement href="Taller2_Hamburguesas.uml#_tE00YLDTEe2Eq-A42o2mnA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_tGtq1rDTEe2Eq-A42o2mnA" name="nombre">
+        <modelElement href="Taller2_Hamburguesas.uml#_tE00YrDTEe2Eq-A42o2mnA"/>
+        <cardinality xmi:id="_tGtq17DTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+        <type xmi:id="_tGtq2LDTEe2Eq-A42o2mnA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_tGtq2bDTEe2Eq-A42o2mnA" name="precioBase">
+        <modelElement href="Taller2_Hamburguesas.uml#_tE00Y7DTEe2Eq-A42o2mnA"/>
+        <cardinality xmi:id="_tGtq2rDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+        <type xmi:id="_tGtq27DTEe2Eq-A42o2mnA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_tGtq3LDTEe2Eq-A42o2mnA" name="ProductoMenu">
+      <modelElement href="Taller2_Hamburguesas.uml#_tE1bcLDTEe2Eq-A42o2mnA"/>
+      <keywords xmi:id="_tGtq3bDTEe2Eq-A42o2mnA" keyword="create"/>
+      <visibility xmi:id="_tGtq3rDTEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_tGtq37DTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tGtq4LDTEe2Eq-A42o2mnA">
+        <modelElement href="Taller2_Hamburguesas.uml#_tE1bdrDTEe2Eq-A42o2mnA"/>
+        <type xmi:id="_tGtq4bDTEe2Eq-A42o2mnA" name="ProductoMenu">
+          <modelElement href="Taller2_Hamburguesas.uml#_tE00YLDTEe2Eq-A42o2mnA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_tGtq4rDTEe2Eq-A42o2mnA" name="nombre">
+        <modelElement href="Taller2_Hamburguesas.uml#_tE1bcbDTEe2Eq-A42o2mnA"/>
+        <cardinality xmi:id="_tGtq47DTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+        <type xmi:id="_tGtq5LDTEe2Eq-A42o2mnA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_tGtq5bDTEe2Eq-A42o2mnA" name="precioBase">
+        <modelElement href="Taller2_Hamburguesas.uml#_tE1bcrDTEe2Eq-A42o2mnA"/>
+        <cardinality xmi:id="_tGtq5rDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+        <type xmi:id="_tGtq57DTEe2Eq-A42o2mnA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_tGtq6LDTEe2Eq-A42o2mnA" name="calorias">
+        <modelElement href="Taller2_Hamburguesas.uml#_tE1bc7DTEe2Eq-A42o2mnA"/>
+        <cardinality xmi:id="_tGtq6bDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+        <type xmi:id="_tGtq6rDTEe2Eq-A42o2mnA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_tGtq67DTEe2Eq-A42o2mnA" name="getPrecio">
+      <modelElement href="Taller2_Hamburguesas.uml#_tE1bd7DTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tGtq7LDTEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_tGtq7bDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tGtq7rDTEe2Eq-A42o2mnA">
+        <modelElement href="Taller2_Hamburguesas.uml#_tE1beLDTEe2Eq-A42o2mnA"/>
+        <type xmi:id="_tGtq77DTEe2Eq-A42o2mnA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_tGtq8LDTEe2Eq-A42o2mnA" name="generarTextoFactura">
+      <modelElement href="Taller2_Hamburguesas.uml#_tE1bebDTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tGtq8bDTEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_tGtq8rDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tGtq87DTEe2Eq-A42o2mnA">
+        <modelElement href="Taller2_Hamburguesas.uml#_tE1berDTEe2Eq-A42o2mnA"/>
+        <type xmi:id="_tGtq9LDTEe2Eq-A42o2mnA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_N8iw8LDXEe2Eq-A42o2mnA" name="getNombre">
+      <modelElement href="Taller2_Hamburguesas.uml#_N8iJ4LDXEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_N8iw8bDXEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_N8iw8rDXEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_N8iw87DXEe2Eq-A42o2mnA">
+        <modelElement href="Taller2_Hamburguesas.uml#_N8iJ4bDXEe2Eq-A42o2mnA"/>
+        <type xmi:id="_N8iw9LDXEe2Eq-A42o2mnA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_P8HcArDXEe2Eq-A42o2mnA" name="getCalorias">
+      <modelElement href="Taller2_Hamburguesas.uml#_P8HcALDXEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_P8HcA7DXEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_P8HcBLDXEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_P8HcBbDXEe2Eq-A42o2mnA">
+        <modelElement href="Taller2_Hamburguesas.uml#_P8HcAbDXEe2Eq-A42o2mnA"/>
+        <type xmi:id="_P8HcBrDXEe2Eq-A42o2mnA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_tHGsULDTEe2Eq-A42o2mnA" name="Producto" associationsIn="_7Tg1wLDVEe2Eq-A42o2mnA" subclassedBy="_tG5Q8LDTEe2Eq-A42o2mnA _tG6fELDTEe2Eq-A42o2mnA _tHEQELDTEe2Eq-A42o2mnA">
+    <modelElement href="Taller2_Hamburguesas.uml#_tEy_MLDTEe2Eq-A42o2mnA"/>
+    <visualProperties xmi:id="_tHGsUbDTEe2Eq-A42o2mnA" position="-706.0,-35.0" size="220.0,169.0"/>
+    <visibility xmi:id="_tHGsUrDTEe2Eq-A42o2mnA" label="+"/>
+    <attributes xmi:id="_tHGsU7DTEe2Eq-A42o2mnA" name="precio">
+      <modelElement href="Taller2_Hamburguesas.uml#_tEy_MbDTEe2Eq-A42o2mnA"/>
+      <visualProperties xmi:id="__CcloLDVEe2Eq-A42o2mnA" visible="false"/>
+      <visibility xmi:id="_tHGsVLDTEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_tHGsVbDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <type xmi:id="_tHGsVrDTEe2Eq-A42o2mnA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tHGsV7DTEe2Eq-A42o2mnA" name="nombre">
+      <modelElement href="Taller2_Hamburguesas.uml#_tEzmQLDTEe2Eq-A42o2mnA"/>
+      <visualProperties xmi:id="__CclobDVEe2Eq-A42o2mnA" visible="false"/>
+      <visibility xmi:id="_tHGsWLDTEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_tHGsWbDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <type xmi:id="_tHGsWrDTEe2Eq-A42o2mnA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tHGsW7DTEe2Eq-A42o2mnA" name="calorias">
+      <modelElement href="Taller2_Hamburguesas.uml#_tEzmQ7DTEe2Eq-A42o2mnA"/>
+      <visualProperties xmi:id="__CclorDVEe2Eq-A42o2mnA" visible="false"/>
+      <visibility xmi:id="_tHGsXLDTEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_tHGsXbDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <type xmi:id="_tHGsXrDTEe2Eq-A42o2mnA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_tHGsX7DTEe2Eq-A42o2mnA" name="generarTextoFactura">
+      <modelElement href="Taller2_Hamburguesas.uml#_tEzmQbDTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tHGsYLDTEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_tHGsYbDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tHGsYrDTEe2Eq-A42o2mnA">
+        <modelElement href="Taller2_Hamburguesas.uml#_tEzmQrDTEe2Eq-A42o2mnA"/>
+        <type xmi:id="_tHGsY7DTEe2Eq-A42o2mnA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_HIEB4LDWEe2Eq-A42o2mnA" name="getPrecio">
+      <modelElement href="Taller2_Hamburguesas.uml#_HIDa0LDWEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_HIEB4bDWEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_HIEB4rDWEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_HIEB47DWEe2Eq-A42o2mnA">
+        <modelElement href="Taller2_Hamburguesas.uml#_HIDa0bDWEe2Eq-A42o2mnA"/>
+        <type xmi:id="_HIEB5LDWEe2Eq-A42o2mnA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_JJqGMrDWEe2Eq-A42o2mnA" name="getNombre">
+      <modelElement href="Taller2_Hamburguesas.uml#_JJqGMLDWEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_JJqGM7DWEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_JJqGNLDWEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_JJqGNbDWEe2Eq-A42o2mnA">
+        <modelElement href="Taller2_Hamburguesas.uml#_JJqGMbDWEe2Eq-A42o2mnA"/>
+        <type xmi:id="_JJqGNrDWEe2Eq-A42o2mnA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_MoBqgrDWEe2Eq-A42o2mnA" name="getCalorias">
+      <modelElement href="Taller2_Hamburguesas.uml#_MoBqgLDWEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_MoBqg7DWEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_MoBqhLDWEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_MoBqhbDWEe2Eq-A42o2mnA">
+        <modelElement href="Taller2_Hamburguesas.uml#_MoBqgbDWEe2Eq-A42o2mnA"/>
+        <type xmi:id="_MoBqhrDWEe2Eq-A42o2mnA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_tHFeMLDTEe2Eq-A42o2mnA" name="Combo" associationsIn="_DKducLDXEe2Eq-A42o2mnA" associationsOut="_tHEQEbDTEe2Eq-A42o2mnA _RY1RoLDXEe2Eq-A42o2mnA" generalizations="_tHEQELDTEe2Eq-A42o2mnA">
+    <modelElement href="Taller2_Hamburguesas.uml#_tEutwLDTEe2Eq-A42o2mnA"/>
+    <visualProperties xmi:id="_tHFeMbDTEe2Eq-A42o2mnA" position="-1192.0,-153.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_tHFeMrDTEe2Eq-A42o2mnA" label="+"/>
+    <attributes xmi:id="_tHFeM7DTEe2Eq-A42o2mnA" name="descuento">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFhX8rDTEe2Eq-A42o2mnA"/>
+      <stereotypes xmi:id="_tHFeNLDTEe2Eq-A42o2mnA" name="LegacyStyledElement">
+        <modelElement href="Taller2_Hamburguesas.uml#_tFhX87DTEe2Eq-A42o2mnA"/>
+      </stereotypes>
+      <visibility xmi:id="_tHFeNbDTEe2Eq-A42o2mnA" label="-"/>
+      <cardinality xmi:id="_tHFeNrDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <type xmi:id="_tHFeN7DTEe2Eq-A42o2mnA" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tHFeOLDTEe2Eq-A42o2mnA" name="nombreCombo">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFhX9LDTEe2Eq-A42o2mnA"/>
+      <stereotypes xmi:id="_tHFeObDTEe2Eq-A42o2mnA" name="LegacyStyledElement">
+        <modelElement href="Taller2_Hamburguesas.uml#_tFhX9bDTEe2Eq-A42o2mnA"/>
+      </stereotypes>
+      <visibility xmi:id="_tHFeOrDTEe2Eq-A42o2mnA" label="-"/>
+      <cardinality xmi:id="_tHFeO7DTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <type xmi:id="_tHFePLDTEe2Eq-A42o2mnA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tHFePbDTEe2Eq-A42o2mnA" name="calorias">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFhX9rDTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tHFePrDTEe2Eq-A42o2mnA" label="-"/>
+      <cardinality xmi:id="_tHFeP7DTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <type xmi:id="_tHFeQLDTEe2Eq-A42o2mnA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tHFeQbDTEe2Eq-A42o2mnA" name="itemsCombo">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFhX97DTEe2Eq-A42o2mnA"/>
+      <stereotypes xmi:id="_tHFeQrDTEe2Eq-A42o2mnA" name="Generics">
+        <modelElement href="Taller2_Hamburguesas.uml#_tFh_ALDTEe2Eq-A42o2mnA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_tHFeQ7DTEe2Eq-A42o2mnA" name="LegacyStyledElement">
+        <modelElement href="Taller2_Hamburguesas.uml#_tFimELDTEe2Eq-A42o2mnA"/>
+      </stereotypes>
+      <visibility xmi:id="_tHFeRLDTEe2Eq-A42o2mnA" label="-"/>
+      <cardinality xmi:id="_tHFeRbDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <type xmi:id="_tHFeRrDTEe2Eq-A42o2mnA" name="ArrayList">
+        <modelElement href="Taller2_Hamburguesas.uml#_tFVxw7DTEe2Eq-A42o2mnA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RY14sLDXEe2Eq-A42o2mnA" name="itemsCombo">
+      <modelElement href="Taller2_Hamburguesas.uml#_RY0qlLDXEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_RY14sbDXEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_RY14srDXEe2Eq-A42o2mnA" label="*" max="-1"/>
+      <type xmi:id="_RY14s7DXEe2Eq-A42o2mnA" name="ProductoMenu">
+        <modelElement href="Taller2_Hamburguesas.uml#_tE00YLDTEe2Eq-A42o2mnA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_tHFeR7DTEe2Eq-A42o2mnA" name="Combo">
+      <modelElement href="Taller2_Hamburguesas.uml#_tEutwbDTEe2Eq-A42o2mnA"/>
+      <keywords xmi:id="_tHFeSLDTEe2Eq-A42o2mnA" keyword="create"/>
+      <visibility xmi:id="_tHFeSbDTEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_tHFeSrDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tHFeS7DTEe2Eq-A42o2mnA">
+        <modelElement href="Taller2_Hamburguesas.uml#_tEvU0rDTEe2Eq-A42o2mnA"/>
+        <type xmi:id="_tHFeTLDTEe2Eq-A42o2mnA" name="Combo">
+          <modelElement href="Taller2_Hamburguesas.uml#_tEutwLDTEe2Eq-A42o2mnA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_tHFeTbDTEe2Eq-A42o2mnA" name="nombre">
+        <modelElement href="Taller2_Hamburguesas.uml#_tEutwrDTEe2Eq-A42o2mnA"/>
+        <cardinality xmi:id="_tHFeTrDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+        <type xmi:id="_tHFeT7DTEe2Eq-A42o2mnA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_tHFeULDTEe2Eq-A42o2mnA" name="descuento">
+        <modelElement href="Taller2_Hamburguesas.uml#_tEutw7DTEe2Eq-A42o2mnA"/>
+        <cardinality xmi:id="_tHFeUbDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+        <type xmi:id="_tHFeUrDTEe2Eq-A42o2mnA" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_tHFeU7DTEe2Eq-A42o2mnA" name="getPrecio">
+      <modelElement href="Taller2_Hamburguesas.uml#_tEvU07DTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tHFeVLDTEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_tHFeVbDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tHFeVrDTEe2Eq-A42o2mnA">
+        <modelElement href="Taller2_Hamburguesas.uml#_tEvU1LDTEe2Eq-A42o2mnA"/>
+        <type xmi:id="_tHFeV7DTEe2Eq-A42o2mnA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_tHFeWLDTEe2Eq-A42o2mnA" name="generarTextoFactura">
+      <modelElement href="Taller2_Hamburguesas.uml#_tEvU1bDTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tHFeWbDTEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_tHFeWrDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tHFeW7DTEe2Eq-A42o2mnA">
+        <modelElement href="Taller2_Hamburguesas.uml#_tEvU1rDTEe2Eq-A42o2mnA"/>
+        <type xmi:id="_tHFeXLDTEe2Eq-A42o2mnA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_tHFeXbDTEe2Eq-A42o2mnA" name="getNombre">
+      <modelElement href="Taller2_Hamburguesas.uml#_tEvU17DTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tHFeXrDTEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_tHFeX7DTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tHFeYLDTEe2Eq-A42o2mnA">
+        <modelElement href="Taller2_Hamburguesas.uml#_tEvU2LDTEe2Eq-A42o2mnA"/>
+        <type xmi:id="_tHFeYbDTEe2Eq-A42o2mnA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_tHFeYrDTEe2Eq-A42o2mnA" name="getProductos">
+      <modelElement href="Taller2_Hamburguesas.uml#_tEvU2bDTEe2Eq-A42o2mnA"/>
+      <stereotypes xmi:id="_tHFeY7DTEe2Eq-A42o2mnA" name="Generics">
+        <modelElement href="Taller2_Hamburguesas.uml#_tEv74LDTEe2Eq-A42o2mnA"/>
+      </stereotypes>
+      <visibility xmi:id="_tHFeZLDTEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_tHFeZbDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tHFeZrDTEe2Eq-A42o2mnA">
+        <modelElement href="Taller2_Hamburguesas.uml#_tFdGgLDTEe2Eq-A42o2mnA"/>
+        <type xmi:id="_tHFeZ7DTEe2Eq-A42o2mnA" name="ArrayList">
+          <modelElement href="Taller2_Hamburguesas.uml#_tFVxw7DTEe2Eq-A42o2mnA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_tHFeaLDTEe2Eq-A42o2mnA" name="agregarItemACombo">
+      <modelElement href="Taller2_Hamburguesas.uml#_tFXm8LDTEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_tHFeabDTEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_tHFearDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_tHFea7DTEe2Eq-A42o2mnA" name="itemCombo">
+        <modelElement href="Taller2_Hamburguesas.uml#_tFXm8bDTEe2Eq-A42o2mnA"/>
+        <cardinality xmi:id="_tHFebLDTEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+        <type xmi:id="_tHFebbDTEe2Eq-A42o2mnA" name="Producto">
+          <modelElement href="Taller2_Hamburguesas.uml#_tEy_MLDTEe2Eq-A42o2mnA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_9KqIIrDWEe2Eq-A42o2mnA" name="getCalorias">
+      <modelElement href="Taller2_Hamburguesas.uml#_9KqIILDWEe2Eq-A42o2mnA"/>
+      <visibility xmi:id="_9KqII7DWEe2Eq-A42o2mnA" label="+"/>
+      <cardinality xmi:id="_9KqIJLDWEe2Eq-A42o2mnA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_9KqIJbDWEe2Eq-A42o2mnA">
+        <modelElement href="Taller2_Hamburguesas.uml#_9KqIIbDWEe2Eq-A42o2mnA"/>
+        <type xmi:id="_9KqIJrDWEe2Eq-A42o2mnA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
