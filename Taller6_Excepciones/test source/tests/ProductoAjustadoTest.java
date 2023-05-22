@@ -46,8 +46,98 @@ class ProductoAjustadoTest {
 	
 	
 	@Test
-	void test() {
-		fail("Not yet implemented");
+	void AgregarIngredienteCorrPrecioTest() {
+		
+		setUpRestauranteModificado();
+		
+		ArrayList<ProductoMenu> menuProductos = restaurante.getMenuBase();
+		ProductoMenu productoCorral = menuProductos.get(0);
+		
+		ProductoAjustado corralAjustado = new ProductoAjustado(productoCorral);
+		
+		ArrayList<Ingrediente> opcionIngredientes = restaurante.getIngredientes();
+		Ingrediente ingredienteLechuga = opcionIngredientes.get(0);
+		
+		corralAjustado.agregarIngrediente(ingredienteLechuga);
+		
+		assertEquals(15000, corralAjustado.getPrecio(),"El precio de la corral debería ser 15000");
+		
+	}
+	@Test
+	void AgregarIngredienteCorrCaloriasTest() {
+		
+		setUpRestauranteModificado();
+		
+		ArrayList<ProductoMenu> menuProductos = restaurante.getMenuBase();
+		ProductoMenu productoCorral = menuProductos.get(0);
+		
+		ProductoAjustado corralAjustado = new ProductoAjustado(productoCorral);
+		
+		ArrayList<Ingrediente> opcionIngredientes = restaurante.getIngredientes();
+		Ingrediente ingredienteLechuga = opcionIngredientes.get(0);
+		
+		corralAjustado.agregarIngrediente(ingredienteLechuga);
+		
+		assertEquals(561, corralAjustado.getCalorias(),"La corral tiene ahora 561 calorías.");
+		
+	}
+	@Test
+	void EliminarIngredienteCorrPrecioTest() {
+		
+		setUpRestauranteModificado();
+		
+		ArrayList<ProductoMenu> menuProductos = restaurante.getMenuBase();
+		ProductoMenu productoCorral = menuProductos.get(0);
+		
+		ProductoAjustado corralAjustado = new ProductoAjustado(productoCorral);
+		
+		ArrayList<Ingrediente> opcionIngredientes = restaurante.getIngredientes();
+		Ingrediente ingredienteHuevo = opcionIngredientes.get(5);
+		
+		corralAjustado.eliminarIngrediente(ingredienteHuevo);
+		
+		assertEquals(14000, corralAjustado.getPrecio(),"El precio de la corral no debe cambiar");
+}
+	@Test
+	void EliminarIngredienteCorrCaloriaTest() {
+	
+		setUpRestauranteModificado();
+		
+		ArrayList<ProductoMenu> menuProductos = restaurante.getMenuBase();
+		ProductoMenu productoCorral = menuProductos.get(0);
+		
+		ProductoAjustado corralAjustado = new ProductoAjustado(productoCorral);
+		
+		ArrayList<Ingrediente> opcionIngredientes = restaurante.getIngredientes();
+		Ingrediente ingredienteHuevo = opcionIngredientes.get(5);
+		
+		corralAjustado.eliminarIngrediente(ingredienteHuevo);
+		
+		assertEquals(456, corralAjustado.getCalorias(),"La corral tiene ahora 456 calorías.");
+	}
+	@Test
+	void getTextoFacturaCorralAjustadoTest() {
+		
+		setUpRestauranteModificado();
+		
+		ArrayList<ProductoMenu> menuProductos = restaurante.getMenuBase();
+		ProductoMenu productoCorral = menuProductos.get(0);
+		
+		ProductoAjustado corralAjustado = new ProductoAjustado(productoCorral);
+		
+		ArrayList<Ingrediente> opcionIngredientes = restaurante.getIngredientes();
+		Ingrediente ingredienteLechuga = opcionIngredientes.get(0);
+		Ingrediente ingredienteHuevo = opcionIngredientes.get(5);
+		
+		corralAjustado.agregarIngrediente(ingredienteLechuga);
+		corralAjustado.eliminarIngrediente(ingredienteHuevo);
+		
+		String stringGeneradoCorral = corralAjustado.generarTextoFactura();
+		assertTrue(stringGeneradoCorral.contains("\nNombre del producto base del menu: corral, Precio base: 14000,"
+				+ " Calorias base: 546, Adiciones: \n"
+				+ "Con adicion de: lechuga | Costo adicional: 1000 | Calorias adicionales: 15\n"
+				+ "Sin: huevo | Calorias restadas: 90\n"
+				+ "Precio total: 15000, Calorias totales: 471\n\n"));
 	}
 
 }
