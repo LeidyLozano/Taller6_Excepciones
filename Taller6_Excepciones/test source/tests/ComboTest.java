@@ -54,14 +54,11 @@ class ComboTest {
 		ArrayList<Combo> opcionesCombos = restaurante.getCombos();
 		Combo comboCorral = opcionesCombos.get(0);
 		
-		//No sabía de donde sacar los productos, así que los saqué de otro combo.
+		ArrayList<ProductoMenu> menuProductos = restaurante.getMenuBase();
+		ProductoMenu productoCorral = menuProductos.get(0);
 		
-		Combo comboEspecial = opcionesCombos.get(4);
+		comboCorral.agregarItemACombo(productoCorral);
 		
-		ArrayList<Producto> productosEspecial = comboEspecial.getProductos();
-		Producto hamburguesaEspecial = productosEspecial.get(0);
-		
-		comboCorral.agregarItemACombo(hamburguesaEspecial);
 		
 		ArrayList<Producto> productosCorral = comboCorral.getProductos();
 		assertEquals(4,productosCorral.size(),"El combo de la corral ahora debería tener cuatro elementos");	
@@ -69,19 +66,27 @@ class ComboTest {
 	}
 	@Test
 	
-	void generarTextoFacturaCorralTest() {
+	void generarTextoFacturaContenidoCorralTest() {
 		
 		setUpRestauranteModificado();
 		
 		ArrayList<Combo> opcionesCombos = restaurante.getCombos();
 		Combo comboCorral = opcionesCombos.get(0);
 		
+		ArrayList<ProductoMenu> menuProductos = restaurante.getMenuBase();
+		ProductoMenu productoCosteña = menuProductos.get(11);
+		
+		comboCorral.agregarItemACombo(productoCosteña);
+		
 		String textoGenerado = comboCorral.generarTextoFactura();
 		
-		//ya que la función usa prodcuto y no producto menu y producto es una interfaz realmente no sé como implementar
-		//esta prueba :(
-		
-		assertTrue(textoGenerado.contains("\n\nNombre del combo: combo corral"));
+		//dada lo delicada que es la textura de la factura, se revisa unicamente
+		//que tenga el contenido deseado, no su estructura.
+		assertTrue(textoGenerado.contains("combo corral"));
+		assertTrue(textoGenerado.contains("costeña"));
+		assertTrue(textoGenerado.contains("20000"));
+		assertTrue(textoGenerado.contains("840"));
+		assertTrue(textoGenerado.contains("10%"));
 		
 	}
 }
